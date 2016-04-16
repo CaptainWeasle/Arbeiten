@@ -25,10 +25,21 @@
 			Text: "Welcome - Enter your name!"		<!-- Text, welcher die Anweisung gibt, einen Benutzernamen einzugeben. -->
 			Eingabefläche: 						<!-- Eingabefläche um es dem Benutzer ermöglchen zu können, den oben gefragten Benutzernamen einzugeben.-->
 			Eingabebestätigung: "START"			<!-- Bestätigungstaste für den Benutzernamen -->
-
+			Schaltfläche: "HOW TO PLAY"			<!-- öffnet ein Popup Fenster -->
+				<section>
+					Text: "how to play..."		<!-- Hier wird eine kurze Spielbeschreibung stehen -->
+					Schaltfläche: "GOT IT" 		<!-- Schaltfläche, welche das Fenster mit dem Tutorial schließt -->
+				</section>
+			
 			Schaltfläche: "HIGHSCORE"  <!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Highscore Leaderboards anzeigt-->
 			Schaltfläche: "EXIT"		<!--Schaltfläche, welche das Programm beendet-->
 			Schaltfläche: "CREDITS"		<!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Credits beinhaltet-->
+			Schaltfläche: "SETTINGS"	<!--Schaltfläche, welche dem Benutzer die Möglichkeit geben soll, Einstellungen zu verändern-->
+				<section>	<!--Einstellungen-->
+					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen
+					Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
+					Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->
+				</section>
 		</section>
 	</header>
 
@@ -50,7 +61,31 @@
 	</aside>
 	
 	<main>			<!--Hauptspiel-->
-		Hier befindet sich das Spiel, welches man dann spielt...
+		Hier befindet sich das Spiel, welches man dann spielt...Funktionen, welche es geben wird:
+		
+		Durch drücken von "ESC" : 
+					<section>
+						Text: "PAUSED"		<!--Nachricht, welche anzeigt, dass das Spiel pausiert ist-->
+						Schaltfläche: "SOUND"   <!--Schaltfläche, welche ein neues Fenster öffnet-->
+							<section>
+								Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen
+								Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
+								Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->	
+							</section>
+						Schaltfläche: "RESTART" <!--Schaltfläche, welche das aktuell pausierte Spiel neustartet-->
+						Schaltfläche: "RAGEQUIT" <!--Schaltfläche, welche das aktuell pausierte Spiel beendet-->
+					</section>
+		Durch drücken von "Steuerkreuz links/rechts/oben/unten":
+					<setion>
+<!--hier weiß ich nicht, obs eine Eingabefläche ist.."-->Eingabefläche: "links" 	<!--Charakter bewegt sich nach links-->
+						Eingabefläche: "rechts"			<!--Charakter bewegt sich nach rechts-->
+						Eingabefläche: "oben"			<!--Charakter springt nach oben-->
+						Eingabefläche: "unten"			<!--Charakter duckt sich/"slided" nach unten-->
+					</setion>
+		Durch Drücken der "Leertaste" :
+					<section>
+						Eingabefläche: "Leertaste" 		<!--Charakter feuert ein Seil in 45° nach vorne (rechts)-->
+					</section>
 	</main>
 
 	<footer>		<!--"nach dem Spiel" - Bildschirm-->
