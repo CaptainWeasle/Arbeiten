@@ -1,0 +1,95 @@
+localhost/
+C:/users/horstbrack/meinedatei/.html  <!--für windows - mit soeinem link kann man vom browser 										    aus auf seine datei auf dem rechner zugreifen-->
+www.github.com/HorstBrack/Projekt-1/images/pic01 	<!--absolute Adresse-->
+
+www.github.com/HorstBrack/Projekt-1/
+
+image01.jpg
+
+www.github.com/HorstBrack/Projekt-1/image01.jpg   	<!--relative Adresse, kürzer und etwas 														     weniger Datenaustausch-->
+www.seite.de/verz/datei.html:1237		<!-- ab dem html, also :1237, ist es ein "port". 												 Hierbei handelt es sich um eine Information für 											  den Zielrechner-->
+www.seite.de/verz/datei.html?id=horstbrack&pw=123785324	<!--"?" heißt, es werden Variablen 															     übertragen -->
+
+
+
+<a href=www.horstbrack.de> 					<!--Verlinkung zu www.horstbrack.de-->
+	Zu Horsts Webanwendung 					<!--Auf diesen Text wird man dann klicken können-->
+</a>										<!--End-tag-->
+
+<!-- Wenn man eine verlinkung in eine Datei rein, zB in "EinführungHTML.html" machen wollen, dann braucht man eine Bezeichnung: id=name -->
+
+<a href=img01.jpg download> <!--So downloadet man eine Datri, einfach download hinter de Pfad 								  schreiben-->
+
+<!--Formulare erstellen:-->
+
+<form action=datei.php method=POST>			<!--Hier wird da eingegebene hin übertragen-->
+
+	<input>						<!--Nutzer können kurze Texteingaben machen-->
+		Name
+	</input>
+
+	<input type=passwort>		<!--type=passwort macht, dass dad eingebene am Bildchirm 									zensiert wird. DAs Passwort ist noch nicht verchlüsselt
+									Weitere Types: url, email, range, date, tel, number-->
+		Passwort
+	</input>
+
+	<input type=submit />		<!--wenn submit fehlt, kann man nutzereinbageb machen, die 									stehen aber nur da und werden nirgens übertragen. Schreibt 								   man am Ende-->
+</form>
+
+<script>
+
+		<!--hier beliebigen Spcriptcode anwenden-->
+
+</script>
+
+
+<!--Tabelle-->
+
+
+<table>
+	<tr>
+		<td>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		</td>
+
+		<td>
+		</td>
+	</tr>
+
+
+<!--PHP-->
+
+<?php     			<!--eine Tabelle in php-->
+	
+	for($a = 0; a == 10; a++) {		<!--in php werden keien datentypen declariert, da steht 										dann §-->
+		<tr>
+		for ($b = 0; b == 15; b++) {
+			<td></td>
+		}
+		</tr>
+	}
+?>
+
+<!--Bilder,Videos, Audiodateien einfügen-->
+
+
+<figure>			<!--Untertitel-->
+<figcaption>		<!--Untertitel einzublenden sodass der broser weiß, es gehört zu figure-->
+
+
+<img src=image01.jpg alt="Name/Beschreibung">
+
+<video preload=metadata poster=video01_tease_img.jpg controls>	<!--autoplay,loop, kann man noch so eingeben, auch alt/Textname kann man einfügen-->
+	<source src=video01.avi type=video/avi>
+	<source src=video01.ogg type=video/ogg>
+	<source src=video01.mov type=video/mov>
+	Leider ist bei Ihnen kein kompatibler Codec installiert.
+</video>
+
+<audio>
+das selbe wie bei video, nur mit audio
+</audio>
