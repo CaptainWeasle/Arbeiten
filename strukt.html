@@ -21,9 +21,9 @@
 			Musik: Hintegrundmusik		<!-- Hintergrundmusik, welche abgespielt wird -->
 		</section>
 		
-		<section>	<!--Strukturelle Informationen-->
+		<article>	<!--Strukturelle Informationen-->
 			Text: "Welcome - Enter your name!"		<!-- Text, welcher die Anweisung gibt, einen Benutzernamen einzugeben. -->
-			Eingabefläche: 						<!-- Eingabefläche um es dem Benutzer ermöglchen zu können, den oben gefragten Benutzernamen einzugeben.-->
+			Eingabefläche: 						<!-- Eingabefläche um es dem Benutzer ermöglichen zu können, den oben gefragten Benutzernamen einzugeben.-->
 			Eingabebestätigung: "START"			<!-- Bestätigungstaste für den Benutzernamen -->
 			Schaltfläche: "HOW TO PLAY"			<!-- öffnet ein Popup Fenster -->
 				<section>
@@ -34,13 +34,20 @@
 			Schaltfläche: "HIGHSCORE"  <!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Highscore Leaderboards anzeigt-->
 			Schaltfläche: "EXIT"		<!--Schaltfläche, welche das Programm beendet-->
 			Schaltfläche: "CREDITS"		<!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Credits beinhaltet-->
+				<section>
+					Liste: <!--Liste mit den Credits-->
+					Schaltfäche: "BACK"<!--Schaltfläche um zum Startbildschirm zurück zu gelangen-->
+				</section>
+					
 			Schaltfläche: "SETTINGS"	<!--Schaltfläche, welche dem Benutzer die Möglichkeit geben soll, Einstellungen zu verändern-->
 				<section>	<!--Einstellungen-->
 					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen
 					Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
 					Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->
+					Schaltfläche: "MOBILE DEVICE" <!--Blendet Pfeiltasten ein-->
+					Schaltfläche: "KEYBOARD" <!--Falls eingeblendet, blendet Pfeiltasten wieder aus-->
 				</section>
-		</section>
+		</article>
 	</header>
 
 	<aside>		<!--Levelauswahl-->
@@ -56,7 +63,7 @@
 			Text: "LEADERBOARDS" 	<!-- Beschreibung der kommenden Leaderboads Tabelle-->
 			Tabelle: X mal X Feld 	<!-- Die Leaderboards, eine Tabelle, welche die Spielernamen und deren im Spiel erworbenen Punkte anzeigt -->
 
-			Schaltfläche: "BACK"	<!-- Eigabefläche, welche den Benutzer zurück zu dem Hauptbildschirm bringt -->
+			Schaltfläche: "BACK"	<!-- Eingabefläche, welche den Benutzer zurück zu dem Hauptbildschirm bringt -->
 		</section>
 	</aside>
 	
@@ -81,10 +88,12 @@
 						Eingabefläche: "rechts"			<!--Charakter bewegt sich nach rechts-->
 						Eingabefläche: "oben"			<!--Charakter springt nach oben-->
 						Eingabefläche: "unten"			<!--Charakter duckt sich/"slided" nach unten-->
-					</setion>
+						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
+					</section>
 		Durch Drücken der "Leertaste" :
 					<section>
 						Eingabefläche: "Leertaste" 		<!--Charakter feuert ein Seil in 45° nach vorne (rechts)-->
+						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
 					</section>
 	</main>
 
@@ -109,7 +118,7 @@
 
 </html>
 
-
+<!--Finde die Idee sehr gut ausgearbeitet! Hinweis: <article> und <section> müssen bei Verschachtelung immer im Wechsel sein.-->
 
 
 
