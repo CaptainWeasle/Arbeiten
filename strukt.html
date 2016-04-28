@@ -41,7 +41,7 @@
 					
 			Schaltfläche: "SETTINGS"	<!--Schaltfläche, welche dem Benutzer die Möglichkeit geben soll, Einstellungen zu verändern-->
 				<section>	<!--Einstellungen-->
-					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen
+					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
 					Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
 					Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->
 					Schaltfläche: "MOBILE DEVICE" <!--Blendet Pfeiltasten ein-->
@@ -71,17 +71,17 @@
 		Hier befindet sich das Spiel, welches man dann spielt...Funktionen, welche es geben wird:
 		
 		Durch drücken von "ESC" : 
-					<section>
+					<article>
 						Text: "PAUSED"		<!--Nachricht, welche anzeigt, dass das Spiel pausiert ist-->
 						Schaltfläche: "SOUND"   <!--Schaltfläche, welche ein neues Fenster öffnet-->
 							<section>
-								Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen
+								Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
 								Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
 								Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->	
 							</section>
 						Schaltfläche: "RESTART" <!--Schaltfläche, welche das aktuell pausierte Spiel neustartet-->
 						Schaltfläche: "RAGEQUIT" <!--Schaltfläche, welche das aktuell pausierte Spiel beendet-->
-					</section>
+					</article>
 		Durch drücken von "Steuerkreuz links/rechts/oben/unten":
 					<setion>
 <!--hier weiß ich nicht, obs eine Eingabefläche ist.."-->Eingabefläche: "links" 	<!--Charakter bewegt sich nach links-->
@@ -98,6 +98,13 @@
 	</main>
 
 	<footer>		<!--"nach dem Spiel" - Bildschirm-->
+		<section>	<!--Feedback: Victoy Screen-->
+			Text: "VICORY/FAILED(oder DEFEAT)"	<!--Zeigt, dass das Spiel vorbei ist und man entweder gewonnen, oder verloren hat-->
+			Bild: "Bild"	<!-- EIn Bild, welches zB ein glückliches oder trauriges smiley zeigt-->
+			Text: "+200" <!--Beispielhafte Währung als Belohnung (nicht safe)-->
+			Schaltfläche: "Alles"	<!--Der komplette "Victory-screen" ist eine Schaltfläche um dann ins "Post-game-screen" zu kommen-->
+		</section>
+		
 		<section>
 			Text: "GGWP" 	<!-- Text, welcher ausgegeben wird, wenn das Spiel vorbei ist -->
 			Text: "Score: "		<!-- der Score, den man als Benutzer erreicht, wird hier angezeigt --> 
