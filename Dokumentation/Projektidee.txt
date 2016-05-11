@@ -22,11 +22,27 @@ Das ist so erstmal die Idee was man versuchen könnte.\
 === Projektidee CaptainWeasle, 2016-04-05 UPDATE ===
 ====================================================
 
-Das Grundprinzip der Anwendung ist ein Spiel. Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten. Man wird seinen Benutzernamen eingeben und bestätigen können, durch eine Interaktionsmöglichkeit in Form einer Schaltfläche verschiedene neue Fenster öffnen können (zB "wie man spielt" und "leaderboards), ein Fenster mit "Einstellungen" öffnen können und die Anwendung beenden.
-Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. Dort wird man die Möglichkeit haben, zwischen verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. Auch wird es natürlich eine Schaltfläche geben, um zurück zum Titelbildschirm navigieren zu können.
-Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. In diesr Anwendung wird man die Möglichkeit haben mit dem ausgewählten Level zu interagieren. Durch Die Pfeiltasten wird man sich fortbewegen können, wobei links = links, rechts = rechts, oben = springen, unten = ducken/"sliden" ist. Durch Drücken der Leertaste wird man ein Seil abfeuern können um sich zB über Klippen hinweg bewegen zu können. Bei Drücken der Taste [esc] wird die Anwendung pauiert und es wird ein Menü angezeigt, welche weitere Interaktionsmöglichkeiten bietet (zB Anwendung beenden).
-Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
-Natürlich speichert die Anwendung den erhaltenen "Score", am Ende des Spiels, und zeigt diesen im Fenster "Highscores" sortiert an, wo dieser über das Start- bzw Endmenü aus erreichbsr ist.
+Das Grundprinzip der Anwendung ist ein Spiel. Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten.
+Man wird seinen Benutzernamen eingeben und bestätigen können, durch eine Interaktionsmöglichkeit in Form einer Schaltfläche
+verschiedene neue Fenster öffnen können (zB "wie man spielt" und "leaderboards), ein Fenster mit "Einstellungen" öffnen
+können und die Anwendung beenden.
+
+Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. Dort wird man die Möglichkeit haben, zwischen
+verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. Auch wird es natürlich eine Schaltfläche geben, um
+zurück zum Titelbildschirm navigieren zu können.
+
+Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. In diesr Anwendung wird man die Möglichkeit haben mit
+dem ausgewählten Level zu interagieren. Durch Die Pfeiltasten wird man sich fortbewegen können, wobei links = links, rechts =
+rechts, oben = springen, unten = ducken/"sliden" ist. Durch Drücken der Leertaste wird man ein Seil abfeuern können um sich
+zB über Klippen hinweg bewegen zu können. Bei Drücken der Taste [esc] wird die Anwendung pauiert und es wird ein Menü
+angezeigt, welche weitere Interaktionsmöglichkeiten bietet (zB Anwendung beenden).
+
+Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
+starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
+
+Natürlich speichert die Anwendung den erhaltenen "Score", am Ende des Spiels, und zeigt diesen im Fenster "Highscores"
+sortiert an, wo dieser über das Start- bzw Endmenü aus erreichbar ist.
+
 
 
 ===================================
