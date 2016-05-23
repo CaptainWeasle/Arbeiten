@@ -1,0 +1,73 @@
+--- Variable ---
+
+Bezeichner
+Adresse / Pointer
+Speicherbedarf
+Binärwert
+Interpretation
+Operation
+Zugriffsrechte
+
+
+--- Im Quelltext ---
+
+Datentyp
+
+--- Fuktionen / Methoden ---
+
+Bezeichner
+Datentyp
+Zugriffsrecht
+Argument / Parameter -> Variable (Wert, Datenstruktur, Funktion)
+Speicherbedarf
+Interpretation
+Binärwert
+Pointer
+	_______________________________________________
+
+	Java: public int meineFunktion(int x) { ... }
+	PHP: function meineFunktion (x) { ... }
+	_______________________________________________
+
+BEISPIEL "Rekursion":	(DAS kann man nicht mit einer Schleife realisieren!)
+
+meineFunktion(int x, int y){
+	if (y % 2 == 0){
+		y /= 2;
+		x **= 4;
+		return meineFunktion(x,y);
+	}else{
+		y -= 1;
+		x *= x;
+		return meineFunktion(x,y);
+	}
+}
+
+(x^2) ^y
+
+BEISPIEL "Baum": ("Pseudocode")
+	
+	struct Knoten{
+		value = 0;
+		left = self;
+		right = self;
+
+		add(Knoten x){
+			if (x.value != value){
+				if (x.value > value){
+					if(right != self){
+						right.add(x)
+					}else{
+					right = x;
+					} ...
+				}
+			}
+
+		}
+	}
+
+
+
+
+
+
