@@ -31,11 +31,20 @@ Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. Dort
 verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. Auch wird es natürlich eine Schaltfläche geben, um
 zurück zum Titelbildschirm navigieren zu können.
 
-Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. In diesr Anwendung wird man die Möglichkeit haben mit
-dem ausgewählten Level zu interagieren. Durch Die Pfeiltasten wird man sich fortbewegen können, wobei links = links, rechts =
-rechts, oben = springen, unten = ducken/"sliden" ist. Durch Drücken der Leertaste wird man ein Seil abfeuern können um sich
-zB über Klippen hinweg bewegen zu können. Bei Drücken der Taste [esc] wird die Anwendung pauiert und es wird ein Menü
-angezeigt, welche weitere Interaktionsmöglichkeiten bietet (zB Anwendung beenden).
+//Hauptteil & Interaktivität
+Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. In dieser Anwendung wird man seinen Character bewegen
+können. Mit den Pfeiltasten bewegt man sich nach links/rechts oder man duckt/springt. Mit der Leertaste wird man ein Seil
+abfeuern können, mit dem man sich u.a über Klippen hinweg bewegen kann. Es wird die Möglichkeit geben, Items aufzusammeln, zu
+kaufen und zu verwenden. Mit der Maus kann man zwischen verschiedenen Items auswählen und sie auf die Tasten 1-3 binden.
+Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege
+erkunden zu können. Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3
+Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. Das Spiel stellt dem Spieler jedoch immer wieder
+Fallen. Wenn sich der Spieler gerne per Leertaste an der Decke hängt und sich nur durch das Seil bewegt, erkennt das Spiel
+diese Angewohnheit und stellt dementsprechend Fallen an die Decke (die Decke bricht plötzlich ein). Weil man auch andere 
+Spieler mit Items verletzen kann. Wird ein unfreundlicher Spieler vom Spiel automatisch bestraft, wenn er viel zu oft andere
+Spieler belästigt, so kann es zB sein, dass ein Spieler (, der unfreundlich spielt) automatisch an den Anfang des Levels
+teleportiert wird, wenn er sich einem anderen Spieler "gefährlich" nähert. 
+
 
 Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
 starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
