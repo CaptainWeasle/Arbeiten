@@ -1,0 +1,25 @@
+host: url, unter der die datenbank erreichbar ist
+username: username
+passwort: passwort
+dbname: datenbanken sind einzelne oder mehrere tabellen. 
+port: fortalufende nummer von 0 - 5k iwas...
+socket: zsm mit de port dafür verantwortlich, dass die daten tatsächlich ankommen, datenaustausch realisieren
+__________________________________________________________________________________________________
+
+&db_connection = mysqli_connect(host, username, passwort, dbname, port, socket); 
+
+//mit dieser zeile kann man auf eine datenbank zugreifen.
+__________________________________________________________________________________________________
+
+&db_result = mysqli_query(&db_connection,...);
+
+
+select * from tabelle_kneipe
+//"suche die folgende heraus" "*" "der inhalt der tabelle kneipe wird zeile für zeile ausgegeben"
+
+insert -> ein neuer datensatz wird eingefügt
+update -> datenbank wird verändert, es werden "Zeilen" geändert
+delete -> datenbank löschen, oder datensatz löschen
+
+
+
