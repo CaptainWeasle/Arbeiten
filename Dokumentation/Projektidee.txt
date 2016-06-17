@@ -92,3 +92,5 @@ Wertung 2: Projektbeschreibung: gesamt: 8 / 10
 - Voraussetzung bekannten Wissens: 0 
 
 P.S. Ich würde gerne andere Studierende auf Ihre Beschreibung als gutes Beispiel für Interaktion und Webbasierung verweisen. Ist Ihnen das recht?
+
+Antwort: "jo, können Sie gerne machen."
