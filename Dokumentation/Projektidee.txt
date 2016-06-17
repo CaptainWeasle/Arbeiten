@@ -1,4 +1,38 @@
 =============================================
+=== Projektidee CaptainWeasle, 2016-06-01 ===
+=============================================
+
+Das Grundprinzip der Anwendung ist ein Spiel. 
+Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten.
+Man wird seinen Benutzernamen eingeben und bestätigen können, 
+durch eine Interaktionsmöglichkeit in Form einer Schaltfläche verschiedene neue Fenster öffnen können (zB "wie man spielt" und "leaderboards), 
+ein Fenster mit "Einstellungen" öffnen können und die Anwendung beenden.
+
+Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. 
+Dort wird man die Möglichkeit haben, zwischen verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. 
+Auch wird es natürlich eine Schaltfläche geben, um zurück zum Titelbildschirm navigieren zu können.
+
+//Hauptteil & Interaktivität
+Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. 
+In dieser Anwendung wird man seinen Character bewegen können. 
+Mit den Pfeiltasten bewegt man sich nach links/rechts oder man duckt/springt. 
+Mit der Leertaste wird man ein Seil abfeuern können, mit dem man sich u.a über Klippen hinweg bewegen kann. 
+Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. 
+Mit der Maus kann man zwischen verschiedenen Items auswählen und sie auf die Tasten 1-3 binden.
+Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege erkunden zu können. 
+Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3 Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. 
+Das Spiel stellt dem Spieler jedoch immer wieder Fallen. 
+Wenn sich der Spieler gerne per Leertaste an der Decke hängt und sich nur durch das Seil bewegt, erkennt das Spiel diese Angewohnheit und stellt dementsprechend Fallen an die Decke (die Decke bricht plötzlich ein). 
+Weil man auch andere Spieler mit Items verletzen kann. 
+Wird ein unfreundlicher Spieler vom Spiel automatisch bestraft, wenn er viel zu oft andere Spieler belästigt, so kann es zB sein, dass ein Spieler (, der unfreundlich spielt) automatisch an den Anfang des Levels teleportiert wird, wenn er sich einem anderen Spieler "gefährlich" nähert. 
+
+Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
+starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
+
+Natürlich speichert die Anwendung den erhaltenen "Score", am Ende des Spiels, und zeigt diesen im Fenster "Highscores"
+sortiert an, wo dieser über das Start- bzw Endmenü aus erreichbar ist.
+
+=============================================
 === Projektidee CaptainWeasle, 2016-04-05 ===
 =============================================
 
@@ -18,42 +52,6 @@ Es sollen Modifikationen des Spielverlaufes möglich sein, zB dass man ein gewis
 \
 Das ist so erstmal die Idee was man versuchen könnte.\
 }
-====================================================
-=== Projektidee CaptainWeasle, 2016-04-05 UPDATE ===
-====================================================
-
-Das Grundprinzip der Anwendung ist ein Spiel. Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten.
-Man wird seinen Benutzernamen eingeben und bestätigen können, durch eine Interaktionsmöglichkeit in Form einer Schaltfläche
-verschiedene neue Fenster öffnen können (zB "wie man spielt" und "leaderboards), ein Fenster mit "Einstellungen" öffnen
-können und die Anwendung beenden.
-
-Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. Dort wird man die Möglichkeit haben, zwischen
-verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. Auch wird es natürlich eine Schaltfläche geben, um
-zurück zum Titelbildschirm navigieren zu können.
-
-//Hauptteil & Interaktivität
-Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. In dieser Anwendung wird man seinen Character bewegen
-können. Mit den Pfeiltasten bewegt man sich nach links/rechts oder man duckt/springt. Mit der Leertaste wird man ein Seil
-abfeuern können, mit dem man sich u.a über Klippen hinweg bewegen kann. Es wird die Möglichkeit geben, Items aufzusammeln, zu
-kaufen und zu verwenden. Mit der Maus kann man zwischen verschiedenen Items auswählen und sie auf die Tasten 1-3 binden.
-Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege
-erkunden zu können. Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3
-Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. Das Spiel stellt dem Spieler jedoch immer wieder
-Fallen. Wenn sich der Spieler gerne per Leertaste an der Decke hängt und sich nur durch das Seil bewegt, erkennt das Spiel
-diese Angewohnheit und stellt dementsprechend Fallen an die Decke (die Decke bricht plötzlich ein). Weil man auch andere 
-Spieler mit Items verletzen kann. Wird ein unfreundlicher Spieler vom Spiel automatisch bestraft, wenn er viel zu oft andere
-Spieler belästigt, so kann es zB sein, dass ein Spieler (, der unfreundlich spielt) automatisch an den Anfang des Levels
-teleportiert wird, wenn er sich einem anderen Spieler "gefährlich" nähert. 
-
-
-Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
-starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
-
-Natürlich speichert die Anwendung den erhaltenen "Score", am Ende des Spiels, und zeigt diesen im Fenster "Highscores"
-sortiert an, wo dieser über das Start- bzw Endmenü aus erreichbar ist.
-
-
-
 ===================================
 === Feedback Alpers, 2016-04-12 ===
 ===================================
@@ -72,8 +70,25 @@ Das ist eine sehr gute Projektbeschreibung im Sinne der Vorgaben aus Kap. 5. (Nu
 Leider haben Sie an der Projektbeschreibung nicht weiter gearbeitet. Das ist aber unabdingbar, weil die Beschreibung all das beinhalten soll, was im Spiel enthalten ist. Und momentan fehlen da die zwei Dinge, die in diesem Projekt essentiell sind: 1.) Webbasierung 2.) Interaktion zwischen (individuellem) Spieler und Spiel.
 
 Wertung 2: Projektbeschreibung: gesamt: 4 / 10
-- Pro Interaktionsmöglichkeit: 0 (momentan haben Sie noch keine Adaption des Verhaltens des Spiels in Abhängigkeit von individuellen Spielern konzipiert.)
+- Pro Interaktionsmöglichkeit: 0
 - Knappe aber klare Beschreibung: 4
 - Werbeslogans u.ä.: 0 
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
+
+===================================
+=== Feedback Alpers, 2016-06-01 ===
+===================================
+
+Großartig: Sie haben hier Ideen ausgearbeitet, bei denen sowohl das Zusammenspiel von Menschen integriert ist als auch ein "Zusammen"-spiel mit dem Computer. Ob sich das so realisieren lässt bzw. wie man hier ein gutes Balancing ausarbeiten kann, ist natürlich eine andere Frage, aber genau dafür besuchen Sie ja Veranstaltungen wie Mediendesign. Beim genauen Nachlesen wird allerdings deutlich, dass Sie bislang nur zwei Fälle ausgearbeitet haben, bei dem das Spiel tatsächlich das Verhalten individueller Spieler adaptiert. Bei der Reaktion auf ein "unfreundliches Spiel" werden Sie später feststellen, dass Sie diesen Punkt etwas genauer ausarbeiten müssen, um ihn tatsächlich umsetzen zu können. Schauen Sie, ob Ihnen da noch mehr einfällt.
+
+Wichtig: Momentan haben Sie nicht explizit geschrieben, dass Spieler übers Netz zusammenspielen können. Genau das ist aber wichtig.
+
+Wertung 2: Projektbeschreibung: gesamt: 8 / 10
+- Pro Interaktionsmöglichkeit: 3
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+
+P.S. Ich würde gerne andere Studierende auf Ihre Beschreibung als gutes Beispiel für Interaktion und Webbasierung verweisen. Ist Ihnen das recht?
