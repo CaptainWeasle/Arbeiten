@@ -14,7 +14,7 @@ Auch wird es natürlich eine Schaltfläche geben, um zurück zum Titelbildschirm
 
 //Hauptteil & Interaktivität
 Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. 
-In dieser Anwendung wird man seinen Character bewegen können. 
+In dieser Anwendung wird man seinen Character bewegen- und mit anderen Spielern über das Internet interagiern können. 
 Mit den Pfeiltasten bewegt man sich nach links/rechts oder man duckt/springt. 
 Mit der Leertaste wird man ein Seil abfeuern können, mit dem man sich u.a über Klippen hinweg bewegen kann. 
 Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. 
@@ -25,6 +25,20 @@ Das Spiel stellt dem Spieler jedoch immer wieder Fallen.
 Wenn sich der Spieler gerne per Leertaste an der Decke hängt und sich nur durch das Seil bewegt, erkennt das Spiel diese Angewohnheit und stellt dementsprechend Fallen an die Decke (die Decke bricht plötzlich ein). 
 Weil man auch andere Spieler mit Items verletzen kann. 
 Wird ein unfreundlicher Spieler vom Spiel automatisch bestraft, wenn er viel zu oft andere Spieler belästigt, so kann es zB sein, dass ein Spieler (, der unfreundlich spielt) automatisch an den Anfang des Levels teleportiert wird, wenn er sich einem anderen Spieler "gefährlich" nähert. 
+"Unfreundliche Spieler" werden bei wiederholtem unfreundlichen Verhalten gewarnt und in ein seperates Level "verschoben",
+welcher explizit für "unfreundliche Spieler" erstellt werden würde. Diese Welt würde anhand des unfreundlichen Verhaltens
+der dort anwesenden Spieler dementsprechende Fallen erstellen um diese Spieler zu bestrafen, aber auch um ihr Verhalte zu
+bessern. Wenn ein "unfreundlicher Spieler" wegen "fahrlässigen Tötens" vieler anderen Spieler gebannt wurde, und in der
+neuen Welt versucht das selbe zu machen, dann kann es passieren, dass der andere Spieler plötzlich eine verdoppelte Kraft
+hat, und sich somit zur Wehr setzen kann. 
+
+//Kommentar zum gesamten Teil der "negativen Spieler":
+Mir ist bewusst, dass ein großer Teil meiner Projektidee etwas mit "negativen Spielern" zu tun hat, und wie das Programm mit
+diesen Spielern interagiert. Man müsse eine gesamte Welt nur für "negative Spieler" programmieren und reaktiv gestalten,
+sodass es Verhalten der "negativen Spieler" individuell analysiert, bewertet und die Strafe dementsprechend umsetzt.
+Was ich mit dem Spiel erschaffen möchte, ist eine offene Welt, ohne Begränzungen wie PvE oder PvP only Server und so etwas.
+Ein Spiel, welches nur eine Grundlage für eine hoffentlich tolle Community ist.
+Und dementsprechend möchte ich Vorkehrungen haben, um so gut wie möglich in diese Richtung zu gehen!//
 
 Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
 starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
