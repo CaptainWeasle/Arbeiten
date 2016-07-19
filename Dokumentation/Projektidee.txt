@@ -91,7 +91,7 @@ Wertung 2: Projektbeschreibung: gesamt: 4 / 10
 - Voraussetzung bekannten Wissens: 0 
 
 ===================================
-=== Feedback Alpers, 2016-06-01 ===
+=== Feedback Alpers, 2016-06-17 ===
 ===================================
 
 Großartig: Sie haben hier Ideen ausgearbeitet, bei denen sowohl das Zusammenspiel von Menschen integriert ist als auch ein "Zusammen"-spiel mit dem Computer. Ob sich das so realisieren lässt bzw. wie man hier ein gutes Balancing ausarbeiten kann, ist natürlich eine andere Frage, aber genau dafür besuchen Sie ja Veranstaltungen wie Mediendesign. Beim genauen Nachlesen wird allerdings deutlich, dass Sie bislang nur zwei Fälle ausgearbeitet haben, bei dem das Spiel tatsächlich das Verhalten individueller Spieler adaptiert. Bei der Reaktion auf ein "unfreundliches Spiel" werden Sie später feststellen, dass Sie diesen Punkt etwas genauer ausarbeiten müssen, um ihn tatsächlich umsetzen zu können. Schauen Sie, ob Ihnen da noch mehr einfällt.
@@ -108,3 +108,22 @@ Wertung 2: Projektbeschreibung: gesamt: 8 / 10
 P.S. Ich würde gerne andere Studierende auf Ihre Beschreibung als gutes Beispiel für Interaktion und Webbasierung verweisen. Ist Ihnen das recht?
 
 Antwort: "jo, können Sie gerne machen."
+
+===================================
+=== Feedback Alpers, 2016-07-19 ===
+===================================
+
+Sie haben jetzt eine in Teilen etwas zu umfangreiche aber dennoch gute grundlegende Beschreibung Ihres Projektes. Sie müssten jetzt also daran arbeiten, Ihre Beschreibung in übersichtlichere Einheiten (ideal: Stichpunkte mit max. 5 Wörtern) zu unterteilen.
+
+Leider haben Sie aber seit mittlerweile zwei Monaten nicht am Rest des Projekts gearbeitet, genau das ist aber wichtig. Denn auch wenn Sie keine finale Frist für das Projekt haben, gilt dennoch, dass Sie für den Leistungsnachweis kontinuierlich daran weiter arbeiten müssen. Da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen.
+
+Wenn ich den Arbeitsaufwand seit dem letzten Feedback veranschlagen müsste, würde ich dagegen lediglich eine halbe Stunde ansetzen; hier ist also noch sehr viel zu tun.
+
+Ein häufiges Missverständnis bezüglich Projektarbeit besteht darin, dass angenommen wird, es würde genügen, einen Abschnitt nach dem anderen abzuschließen, so wie Sie das in der Schule bei vielen Aufgaben vermittelt bekommen haben. Im Gegensatz dazu wird bei Projekten gerade im Medienumfeld eher iterativ gearbeitet. Das bedeutet, dass Sie kontinuierlich zwischen verschiedenen Bereichen des Projekts hin- und herspringen. Wenn sich beispielsweise herausstellt, dass ein Teil der Beschreibung nicht realisierbar ist, dann muss (neben der Umsetzung im Programm und Anpassung der Struktur) auch die Beschreibung angepasst werden.
+
+Wertung 2: Projektbeschreibung: gesamt: 7 / 10
+- Pro Interaktionsmöglichkeit: 3
+- Knappe aber klare Beschreibung: 4
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
