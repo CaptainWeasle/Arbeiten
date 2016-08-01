@@ -49,7 +49,17 @@ Das Programm soll diverse Interaktionen bieten können, wie zB Abgründe oder Ge
 \
 Es sollen Modifikationen des Spielverlaufes möglich sein, zB dass man ein gewisses Item aufhebt und dementsprechend beeinflusst wird.\
 \
-\
+
+
+//KOMMENTARE
+
+Stand 01.08.2016:
+
+Ich habe jetz den letzten Commit mehr oder weniger gelöscht um etwas mehr Klarheit zu schaffen und bin mit der Projektbeschreibung so zufieden. Ich habe vor geraumer Zeit auch die strukt.html gemacht, in der ich quasi ein "Pseudo HTML Dokument" erstellt habe, in dem ich jedoch viele strukturelle Elemente hinzugefügt habe.
+Ich würde Sie bitten, sich das auch mal anzugucken, bzw es wenigstens zu Kommentieren.
+Mittlerweile habe ich sowieso schon weiter an der strukt gearbeitet, also würde ich Sie bitten, 
+nur mal so grob zu sagen, in welche Richtung das ging und ob man mit dem aktuellsten Stand so weitermachen kann. Ich orientiere mich stark an meinen Kollegen BerndStromberg, aber das erde ich
+in die strukt mitschreiben.
 
 ===================================
 === Feedback Alpers, 2016-04-12 ===
