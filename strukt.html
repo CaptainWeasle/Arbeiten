@@ -255,6 +255,7 @@ ________________________________________________________________________________
 
 		-01- Bild / Hintergrund
 		-02- Bild / Spiellogo
+		-11- Musik / Hintergrundmusik
 		-04- Schaltfläche / Spiel beenden
 		
 		-05- Eingabefläche / Login
@@ -262,7 +263,7 @@ ________________________________________________________________________________
 		-07- Eingabefläche / Captcha
 		-08- Schaltfläche / Login bestätigen -> III.
 		-09- Schaltfläche / Einstellungen -> IV. 
-		-10- Schaltfläche / Registrieren -> Browser
+		-10- Schaltfläche / Registrieren -> 
 		-15- Schaltfläche / Tutorial
 
 	_____________________
@@ -372,8 +373,145 @@ ________________________________________________________________________________
 		-57- Schaltfläche / Leaderboards
 		-58- Schaltfläche / Highscores -> Tabelle / Highscores
 
+    ______________________
+	XI. registration
+	______________________
+
+		-01- Bild / Hintergrund
+		-02- Bild / Spiellogo
+		-11- Musik / Hintergrundmusik
+		-15- Schaltfläche / zurück
+
+		-05- Eingabefläche / Login
+		-06- Eingabefläche / Passwort
+		-07- Eingabefläche / Captcha
+		-59- Eingabefläche / Email
+		-60- Schaltfläche / bestätigen
+		-61- Text / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
+___________________________________________________________________________________________________
+
+//ANSICHTEN//Stand: 04.08.2016
+
+	------------------
+	--- view_login ---
+	------------------
+
+		-Eingabemöglichkeit / username
+		-Eingabemöglichkeit / passwort
+		-Eingabemöglichkeit / captcha
+		-Schaltfläche / login
+		-Schaltfläche / registration
+
+	----------------------------
+	--- view_backgroundlogin ---
+	----------------------------
+
+		-Bild / backgroundimage
+		-Musik / backgroundmusik
+		-Schaltfläche / end_game
+		-Schaltfläche / open_settings
+
+	-------------------------
+	--- view_registration ---
+	-------------------------
+
+		-Eingabemöglichkeit / username
+		-Eingabemöglichkeit / passwort
+		-Eingabemöglichkeit / captcha
+		-Eingabemöglichkeit / email
+		-Schaltfläche / registration
+
+	---------------------------
+	--- backgroundmapselect ---
+	---------------------------
+
+		-Bild / backgroundimage
+		-Musik / backgroundmusik
+		-Schaltfläche / back
+		-Schaltfläche / open_settings
+
+	------------------------
+	--- view_levelselect ---
+	------------------------
+
+		-Bild / levelimage
+		-Schaltfläche / switch_level_left
+		-Schaltfläche / switch_level_right
+		-Schaltfläche / select_level
+
+	----------------------------
+	--- view_ingameinterface ---
+	----------------------------
+
+		-Anzeige / healthbar
+		-Anzeige / expbar
+		-Anzeige / level/rank
+
+		-Schaltfläche / open_inventory
+		-Schaltfläche / open_friendslist
+		-Schaltfläche / open_charactermenu
+		-Schaltfläche / open_map
+		-Schaltfläche / open_questlog
+		-Schaltfläche / open_settings
+		-Schaltfläche / logout
+		-Schaltfläche / end_game
+
+		-Schaltfläche / use_item1
+		-Schaltfläche / use_item2
+		-Schaltfläche / use_item3
+
+	---------------------
+	--- view_settings ---
+	---------------------
+
+		-Schaltfläche / sound_on
+		-Schaltfläche /sound_off
+		-Schaltfläche / enable_keyboard
+		-Schaltfläche / disable_keyboard
+		-Schaltfläche / close
+
+	----------------------
+	--- view_inventory ---
+	----------------------
+
+		-Schaltfläche / close
+		-Schaltfläche / armor
+		-Schaltfläche / items
+		-Schaltfläche / consumables
+		-Anzeige / currency
+
+	------------------
+	--- view_map -----
+	------------------
+
+		-Bild / image_map
+		-Schaltfläche / close
+
+	------------------------
+	--- view_friendslist ---
+	------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ___________________________________________________________________________________________________
 //KOMMENTARE//
+
 
 /Stand/01.08.2016:
 
@@ -383,12 +521,19 @@ Kommentar zum "KATALOG STRUKTURELLER ELEMENTE":
 
 Zu fast jeder Schaltfläche gehört auf ein Text, wenn ich geschrieben habe Schaltfläche / Levelauswahl, dann meine ich auch einen dazugehörigen Text / "Levelauswahl". Ich habe jetzt u.a. aus Faulheit nicht zu jeder Schaltfläche noch den dazugehörigen Text geschrieben, welcher ja auch schon teilweise bei der Schaltfläche steht.
 
+
 /Stand/04.08.2016:
 
-Hab jetz die strukturellen Elemente aus dem Katalog strukturiert und in Gruppen engeteilt, wobei
+Hab jetz die strukturellen Elemente aus dem Katalog strukturiert und in Gruppen engeteilt (schon am 02.08), wobei
 ich mich dazu entschieden habe, alles was "ingame" passiert in mehreren Gruppen einzuteilen. Also
 anstatt einer Gruppe ingame, welche dann alles aus character controls, keybinds, interface und 
 interaction hat, hab ich sie in ihre enzelnen "Bestandteile" geordnet.
+
+Jetz wurden die Anzeigen hinzugefügt, wobei ich es anhand ihrer Definition nicht ganz verstanden
+und bestmöglich versucht hab, es so umzusetzten, sodass es nützlich sei. Anzeigen sind wip.
+Ich hab das halt so verstanden dass ich so containermäßig das was zusammengehört nochmal kategorisiere.
+
+
 
 	
 
