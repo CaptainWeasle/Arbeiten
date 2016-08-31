@@ -121,3 +121,43 @@ Wertung 2: Projektbeschreibung: gesamt: 7 / 10
 - Werbeslogans u.ä.: 0 
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
+
+===================================
+=== Feedback Alpers, 2016-08-31 ===
+===================================
+
+(1) Leider benennen Sie die commits nicht entsprechend des Inhalts. Es ist nicht relevant, welche Dateien Sie geändert haben (weil das aus der Versionsverwaltung ausgelesen werden kann), sondern was Sie geändert haben. Bitte notieren Sie deshalb eine entsprechende Zusammenfassung für die folgenden commits und benennen Sie zukünftige commits eindeutig und knapp:
+
+https://github.com/CaptainWeasle/Arbeiten/commit/8462dc076cbe44724dd74eed1800c6ed1ba4daec
+
+https://github.com/CaptainWeasle/Arbeiten/commit/a03a9b5be764b8a4f789abaa457a054aa71f0d22
+
+https://github.com/CaptainWeasle/Arbeiten/commit/176d7d7c5fbd8ee6e3756e184954daa25a8488cf
+
+https://github.com/CaptainWeasle/Arbeiten/commit/de87389aeb1c61b5ab0b33b8934a0dbeab7df68f
+
+https://github.com/CaptainWeasle/Arbeiten/commit/e23d99d0ffb49a1a36503391c3680bbf5a7914e0
+
+https://github.com/CaptainWeasle/Arbeiten/commit/1fe11cb2e50231d72f48bf15f74c54db959295d0
+
+https://github.com/CaptainWeasle/Arbeiten/commit/bcacaf57b8d96019b5e611c99404bf5e36fa548c
+
+https://github.com/CaptainWeasle/Arbeiten/commit/6834d4f0da9aad471662dd8f9769acbbb3187ef6
+
+https://github.com/CaptainWeasle/Arbeiten/commit/d5acaf90f346ae35cbb823002b8f98988fd5689e
+
+https://github.com/CaptainWeasle/Arbeiten/commit/8d39ae790dec6c7dd1f7644c55e1de37c9ceed26
+
+https://github.com/CaptainWeasle/Arbeiten/commit/3bf0a1ad3cea92dfdd38bb019523e7fc761df4f0
+
+https://github.com/CaptainWeasle/Arbeiten/commit/0488b8182fabd23b38b7c5245ae9baacd404c5e6
+
+https://github.com/CaptainWeasle/Arbeiten/commit/df2c9811e656942f26f5b5ca2be4893612ca3cd5
+
+(2) Sie haben die Dateien leider weder wie gefordert benannt noch Sie in das vorgegebene Verzeichnis gespeichert. Einen Teil der Arbeit habe ich Ihnen bereits abgenommen. Lesen Sie sich nochmal die Vorgaben durch und führen Sie dann alle nötigen Änderungen durch.
+
+(3) Sie haben leere Dateien im Projekt gespeichert. Löschen Sie diese; leere Dateien sind nur dann Teil eines Projekts, wenn Sie durch das Programm während der Laufzeit mit Inhalt gefüllt werden. Sie sollten dann aber auch vom Programm erzeugt werden. Platzhalter sind unnötig, da die entsprechenden Dateinamen in der Dokumentation bereits definiert sind.
+
+(4) Wenn Sie die Projektbeschreibung im fortlaufenden Text anpassen, dann fügen Sie bitte am Anfang einen entsprechenden Hinweis ein. Nur durch die entsprechende Hervorhebung auf GitHub habe ich gesehen, dass Sie unter dem Eintrag vom 4. Mai einen Hinweis am 1. August eingetragen haben. Hinweise wie "... Ich würde Sie bitten, sich das auch mal anzugucken, bzw es wenigstens zu Kommentieren. ..." sind eher schlecht, wenn Sie am Anfang der Dokumentation als Datum den 1. Juni stehen lassen. Denn dann gehe ich davon aus, dass sich seit dem 1. Juni nichts an der Beschreibung geändert hat. In späteren Projekten werden Sie Ticketing-Systeme nutzen, die wesentlich komfortabler und übersichtlicher sind, aber für den Moment müssen Sie in der Datei Projektidee.txt darauf achten, dass neue Einträge leicht zu finden sind.
+
+(5) Bei meinem letzten Feedback hatte ich in Ihrer Beschreibung leider etwas übersehen: Sie haben dort definiert, wie eine Eingabe von Nutzern ausgeführt wird. (Spacetaste drücken u.ä.) Ändern Sie das bitte ab: Es geht im Projekt darum eine systemunahängige Anwendung zu entwickeln und es gibt Systeme ohne Tastatur (z.B. Smartphones).

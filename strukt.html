@@ -1,161 +1,3 @@
-<!doctype html>
-
-<html lang=de> 
-
-<head>
-
-	<meta charset=utf-8>
-
-	<title>
-		Spiel - made by André
-	</title>
-
-</head>
-
-<body>
-
-	<header>		<!--Titelbildschirm-->
-		<section>		<!--Metainformationen-->
-			Bild: Hintergrundbild		<!-- hier ist das Hintergrundbild für den Startbildschirm -->
-			Bild: Spiellogo				<!-- auf dem Startbildschirm wird auch das Spielelogo angezeigt -->
-			Musik: Hintegrundmusik		<!-- Hintergrundmusik, welche abgespielt wird -->
-		</section>
-		
-		<article>	<!--Strukturelle Informationen-->
-			Text: "Welcome - Enter your name!"		<!-- Text, welcher die Anweisung gibt, einen Benutzernamen einzugeben. -->
-			Eingabefläche: 						<!-- Eingabefläche um es dem Benutzer ermöglichen zu können, den oben gefragten Benutzernamen einzugeben.-->
-			Eingabebestätigung: "START"			<!-- Bestätigungstaste für den Benutzernamen -->
-			Schaltfläche: "HOW TO PLAY"			<!-- öffnet ein Popup Fenster -->
-				<section>
-					Text: "how to play..."		<!-- Hier wird eine kurze Spielbeschreibung stehen -->
-					Schaltfläche: "GOT IT" 		<!-- Schaltfläche, welche das Fenster mit dem Tutorial schließt -->
-				</section>
-			
-			Schaltfläche: "HIGHSCORE"  <!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Highscore Leaderboards anzeigt-->
-			Schaltfläche: "EXIT"		<!--Schaltfläche, welche das Programm beendet-->
-			Schaltfläche: "CREDITS"		<!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Credits beinhaltet-->
-				<section>
-					Liste: <!--Liste mit den Credits-->
-					Schaltfäche: "BACK"<!--Schaltfläche um zum Startbildschirm zurück zu gelangen-->
-				</section>
-					
-			Schaltfläche: "SETTINGS"	<!--Schaltfläche, welche dem Benutzer die Möglichkeit geben soll, Einstellungen zu verändern-->
-				<section>	<!--Einstellungen-->
-					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
-					Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
-					Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->
-					Schaltfläche: "MOBILE DEVICE" <!--Blendet Pfeiltasten ein-->
-					Schaltfläche: "KEYBOARD" <!--Falls eingeblendet, blendet Pfeiltasten wieder aus-->
-				</section>
-		</article>
-	</header>
-
-	<aside>		<!--Levelauswahl-->
-		<section>
-			Schaltfläche: "LEVEL 1" 	<!-- eine Schaltfläche, um das Level 1 zu bestätigen -->
-			Schaltfläche: "LEVEL 2" 	<!-- eine Schaltfläche, um das Level 2 zu bestätigen -->
-			Schaltfläche: "BACK" 		<!-- eine Schaltfläche, um zurück zum Titelbildschirm zu kommen -->
-		</section>
-	</aside>
-
-	<aside>		<!--Leaderboards-Fenster-->
-		<section>
-			Text: "LEADERBOARDS" 	<!-- Beschreibung der kommenden Leaderboads Tabelle-->
-			Tabelle: X mal X Feld 	<!-- Die Leaderboards, eine Tabelle, welche die Spielernamen und deren im Spiel erworbenen Punkte anzeigt -->
-
-			Schaltfläche: "BACK"	<!-- Eingabefläche, welche den Benutzer zurück zu dem Hauptbildschirm bringt -->
-		</section>
-	</aside>
-	
-	<main>			<!--Hauptspiel-->
-		Hier befindet sich das Spiel, welches man dann spielt...Funktionen, welche es geben wird:
-		
-		Durch drücken von "ESC" : 
-					<article>
-						Text: "PAUSED"		<!--Nachricht, welche anzeigt, dass das Spiel pausiert ist-->
-						Schaltfläche: "SOUND"   <!--Schaltfläche, welche ein neues Fenster öffnet-->
-							<section>
-								Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
-								Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
-								Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->	
-							</section>
-						Schaltfläche: "RESTART" <!--Schaltfläche, welche das aktuell pausierte Spiel neustartet-->
-						Schaltfläche: "RAGEQUIT" <!--Schaltfläche, welche das aktuell pausierte Spiel beendet-->
-					</article>
-		Durch drücken von "Steuerkreuz links/rechts/oben/unten":
-					<setion>
-<!--hier weiß ich nicht, obs eine Eingabefläche ist.."-->Eingabefläche: "links" 	<!--Charakter bewegt sich nach links-->
-						Eingabefläche: "rechts"			<!--Charakter bewegt sich nach rechts-->
-						Eingabefläche: "oben"			<!--Charakter springt nach oben-->
-						Eingabefläche: "unten"			<!--Charakter duckt sich/"slided" nach unten-->
-						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
-					</section>
-		Durch Drücken der "Leertaste" :
-					<section>
-						Eingabefläche: "Leertaste" 		<!--Charakter feuert ein Seil in 45° nach vorne (rechts)-->
-						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
-					</section>
-	</main>
-
-	<footer>		<!--"nach dem Spiel" - Bildschirm-->
-		<section>	<!--Feedback: Victoy Screen-->
-			Text: "VICORY/FAILED(oder DEFEAT)"	<!--Zeigt, dass das Spiel vorbei ist und man entweder gewonnen, oder verloren hat-->
-			Bild: "Bild"	<!-- EIn Bild, welches zB ein glückliches oder trauriges smiley zeigt-->
-			Text: "+200" <!--Beispielhafte Währung als Belohnung (nicht safe)-->
-			Schaltfläche: "Alles"	<!--Der komplette "Victory-screen" ist eine Schaltfläche um dann ins "Post-game-screen" zu kommen-->
-		</section>
-		
-		<section>
-			Text: "GGWP" 	<!-- Text, welcher ausgegeben wird, wenn das Spiel vorbei ist -->
-			Text: "Score: "		<!-- der Score, den man als Benutzer erreicht, wird hier angezeigt --> 
-			Schaltfläche: "HIGHSCORE"	<!-- Schaltfläche, welche den Benutzer in das Highscore Leaderboards Menü bringt-->
-			Schaltfläche: "PLAY AGAIN"	<!--Schaltfläche, welche den das Spiel mit den vorherigen Einstellungen neu startet-->
-			Schaltfläche: "SELECT LEVEL"	<!--Schaltfläche, welche den Benutzer das Level ändern lässt-->
-			Schaltfläche: "RAGE QUIT!"		<!--Schaltfläche, welcher die Anwendung beendet-->
-		</section>
-
-		<section>	<!--Sektion, für die Abfrage, ob man wirklich das Spiel beenden möchte, für den Fall, dass der Benutzer auf "RAGE QUIT" clickt-->
-			Text: "U ARE SURE!" 	<!-- "U ARE SURE!" ist definitiv eine Aussage, wird in diesem Fall als indirekte Frage behandelt und fragt, ob sich der Benutzer sicher ist, dass er die Anwendung beenden möchte-->
-			Schaltfläche: "HELL YEAH!" <!-- "ver'ja'ung" der oben gestellten Aussage -->
-			Schalätfläche: "AM I?"	<!-- "ver'nein'ung" der oben gestellten Aussage -->
-		</section>
-	</footer>
-
-</body>
-
-</html>
-
-<!--Finde die Idee sehr gut ausgearbeitet! Hinweis: <article> und <section> müssen bei Verschachtelung immer im Wechsel sein.-->
-
-<!-- Idee überischtlich und strukturiert ausgearbeitet. Keine Ergänzungen mehr hinzuzufügen. -->
-
-<!-- Anmerkung BlackWolf63
-	Ich würde noch eine Victory-Grafik nach dem durchspielen des letzen Levels einbauen (eventuell mit Credits).
-	Ansonten sehr schön ausformuliert.-->
-
-___________________________________________________________________________________________________
-//ALLGEMEINE STRUKTURELLE ELEMENTE DER PROJEKTIDEE//Stand: 01.08.2016
-
-	Textfelder:
-		-statisch (dient der Beschreibung von Schaltflächen oder zeigt Informationen)
-		-mit Eingabe (z.B. Eingabe der Logininformationen)
-	
-	Schaltflächen:
-		-Bestätigung von Eingaben
-		-Öffnen von Menüs, z.B. Einstellungen
-		-Aktivieren von Aktionen, z.B. Levelauswahl
-		-Aktivieren von Aktionen im Spiel, z.B. Items
-
-	Bilder:
-		-Titelbildschirm
-		-Hintergrundbild
-		-Ladebildschirm
-		-Icons
-
-	Tabellen:
-		-Highscore 
-
-
 //KATALOG STRUKTURELLER ELEMENTE//Stand: 01.08.2016
 	
 	-01- Bild / Hintergrund
@@ -519,26 +361,165 @@ ________________________________________________________________________________
 
 		-Text / username
 		-Tabelle / scores
+___________________________________________________________________________________________________
 
+<!doctype html>
 
+<html lang=de> 
 
+<head>
 
+	<meta charset=utf-8>
 
+	<title>
+		Spiel - made by André
+	</title>
 
+</head>
 
+<body>
 
+	<header>		<!--Titelbildschirm-->
+		<section>		<!--Metainformationen-->
+			Bild: Hintergrundbild		<!-- hier ist das Hintergrundbild für den Startbildschirm -->
+			Bild: Spiellogo				<!-- auf dem Startbildschirm wird auch das Spielelogo angezeigt -->
+			Musik: Hintegrundmusik		<!-- Hintergrundmusik, welche abgespielt wird -->
+		</section>
+		
+		<article>	<!--Strukturelle Informationen-->
+			Text: "Welcome - Enter your name!"		<!-- Text, welcher die Anweisung gibt, einen Benutzernamen einzugeben. -->
+			Eingabefläche: 						<!-- Eingabefläche um es dem Benutzer ermöglichen zu können, den oben gefragten Benutzernamen einzugeben.-->
+			Eingabebestätigung: "START"			<!-- Bestätigungstaste für den Benutzernamen -->
+			Schaltfläche: "HOW TO PLAY"			<!-- öffnet ein Popup Fenster -->
+				<section>
+					Text: "how to play..."		<!-- Hier wird eine kurze Spielbeschreibung stehen -->
+					Schaltfläche: "GOT IT" 		<!-- Schaltfläche, welche das Fenster mit dem Tutorial schließt -->
+				</section>
+			
+			Schaltfläche: "HIGHSCORE"  <!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Highscore Leaderboards anzeigt-->
+			Schaltfläche: "EXIT"		<!--Schaltfläche, welche das Programm beendet-->
+			Schaltfläche: "CREDITS"		<!--Schaltfläche, welche den Benutzer zu einem anderen Fenster bringt, welcher die Credits beinhaltet-->
+				<section>
+					Liste: <!--Liste mit den Credits-->
+					Schaltfäche: "BACK"<!--Schaltfläche um zum Startbildschirm zurück zu gelangen-->
+				</section>
+					
+			Schaltfläche: "SETTINGS"	<!--Schaltfläche, welche dem Benutzer die Möglichkeit geben soll, Einstellungen zu verändern-->
+				<section>	<!--Einstellungen-->
+					Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
+					Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
+					Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->
+					Schaltfläche: "MOBILE DEVICE" <!--Blendet Pfeiltasten ein-->
+					Schaltfläche: "KEYBOARD" <!--Falls eingeblendet, blendet Pfeiltasten wieder aus-->
+				</section>
+		</article>
+	</header>
 
+	<aside>		<!--Levelauswahl-->
+		<section>
+			Schaltfläche: "LEVEL 1" 	<!-- eine Schaltfläche, um das Level 1 zu bestätigen -->
+			Schaltfläche: "LEVEL 2" 	<!-- eine Schaltfläche, um das Level 2 zu bestätigen -->
+			Schaltfläche: "BACK" 		<!-- eine Schaltfläche, um zurück zum Titelbildschirm zu kommen -->
+		</section>
+	</aside>
 
+	<aside>		<!--Leaderboards-Fenster-->
+		<section>
+			Text: "LEADERBOARDS" 	<!-- Beschreibung der kommenden Leaderboads Tabelle-->
+			Tabelle: X mal X Feld 	<!-- Die Leaderboards, eine Tabelle, welche die Spielernamen und deren im Spiel erworbenen Punkte anzeigt -->
 
+			Schaltfläche: "BACK"	<!-- Eingabefläche, welche den Benutzer zurück zu dem Hauptbildschirm bringt -->
+		</section>
+	</aside>
+	
+	<main>			<!--Hauptspiel-->
+		Hier befindet sich das Spiel, welches man dann spielt...Funktionen, welche es geben wird:
+		
+		Durch drücken von "ESC" : 
+					<article>
+						Text: "PAUSED"		<!--Nachricht, welche anzeigt, dass das Spiel pausiert ist-->
+						Schaltfläche: "SOUND"   <!--Schaltfläche, welche ein neues Fenster öffnet-->
+							<section>
+								Text: "SOUND"		<!--Beschreibt die Anwendung der folgenden Schaltflächen-->
+								Schaltfläche: "ON"	<!--Schaltet die Hintergrundmusik an-->
+								Schaltfläche: "OFF"	<!--Schaltet die Hintergrundmusik aus-->	
+							</section>
+						Schaltfläche: "RESTART" <!--Schaltfläche, welche das aktuell pausierte Spiel neustartet-->
+						Schaltfläche: "RAGEQUIT" <!--Schaltfläche, welche das aktuell pausierte Spiel beendet-->
+					</article>
+		Durch drücken von "Steuerkreuz links/rechts/oben/unten":
+					<setion>
+<!--hier weiß ich nicht, obs eine Eingabefläche ist.."-->Eingabefläche: "links" 	<!--Charakter bewegt sich nach links-->
+						Eingabefläche: "rechts"			<!--Charakter bewegt sich nach rechts-->
+						Eingabefläche: "oben"			<!--Charakter springt nach oben-->
+						Eingabefläche: "unten"			<!--Charakter duckt sich/"slided" nach unten-->
+						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
+					</section>
+		Durch Drücken der "Leertaste" :
+					<section>
+						Eingabefläche: "Leertaste" 		<!--Charakter feuert ein Seil in 45° nach vorne (rechts)-->
+						<!--Für Geräte mit Touchscreen müssten die eingeblendet werden. Siehe Settings-->
+					</section>
+	</main>
 
+	<footer>		<!--"nach dem Spiel" - Bildschirm-->
+		<section>	<!--Feedback: Victoy Screen-->
+			Text: "VICORY/FAILED(oder DEFEAT)"	<!--Zeigt, dass das Spiel vorbei ist und man entweder gewonnen, oder verloren hat-->
+			Bild: "Bild"	<!-- EIn Bild, welches zB ein glückliches oder trauriges smiley zeigt-->
+			Text: "+200" <!--Beispielhafte Währung als Belohnung (nicht safe)-->
+			Schaltfläche: "Alles"	<!--Der komplette "Victory-screen" ist eine Schaltfläche um dann ins "Post-game-screen" zu kommen-->
+		</section>
+		
+		<section>
+			Text: "GGWP" 	<!-- Text, welcher ausgegeben wird, wenn das Spiel vorbei ist -->
+			Text: "Score: "		<!-- der Score, den man als Benutzer erreicht, wird hier angezeigt --> 
+			Schaltfläche: "HIGHSCORE"	<!-- Schaltfläche, welche den Benutzer in das Highscore Leaderboards Menü bringt-->
+			Schaltfläche: "PLAY AGAIN"	<!--Schaltfläche, welche den das Spiel mit den vorherigen Einstellungen neu startet-->
+			Schaltfläche: "SELECT LEVEL"	<!--Schaltfläche, welche den Benutzer das Level ändern lässt-->
+			Schaltfläche: "RAGE QUIT!"		<!--Schaltfläche, welcher die Anwendung beendet-->
+		</section>
 
+		<section>	<!--Sektion, für die Abfrage, ob man wirklich das Spiel beenden möchte, für den Fall, dass der Benutzer auf "RAGE QUIT" clickt-->
+			Text: "U ARE SURE!" 	<!-- "U ARE SURE!" ist definitiv eine Aussage, wird in diesem Fall als indirekte Frage behandelt und fragt, ob sich der Benutzer sicher ist, dass er die Anwendung beenden möchte-->
+			Schaltfläche: "HELL YEAH!" <!-- "ver'ja'ung" der oben gestellten Aussage -->
+			Schalätfläche: "AM I?"	<!-- "ver'nein'ung" der oben gestellten Aussage -->
+		</section>
+	</footer>
 
+</body>
 
+</html>
 
+<!--Finde die Idee sehr gut ausgearbeitet! Hinweis: <article> und <section> müssen bei Verschachtelung immer im Wechsel sein.-->
 
+<!-- Idee überischtlich und strukturiert ausgearbeitet. Keine Ergänzungen mehr hinzuzufügen. -->
 
+<!-- Anmerkung BlackWolf63
+	Ich würde noch eine Victory-Grafik nach dem durchspielen des letzen Levels einbauen (eventuell mit Credits).
+	Ansonten sehr schön ausformuliert.-->
 
 ___________________________________________________________________________________________________
+//ALLGEMEINE STRUKTURELLE ELEMENTE DER PROJEKTIDEE//Stand: 01.08.2016
+
+	Textfelder:
+		-statisch (dient der Beschreibung von Schaltflächen oder zeigt Informationen)
+		-mit Eingabe (z.B. Eingabe der Logininformationen)
+	
+	Schaltflächen:
+		-Bestätigung von Eingaben
+		-Öffnen von Menüs, z.B. Einstellungen
+		-Aktivieren von Aktionen, z.B. Levelauswahl
+		-Aktivieren von Aktionen im Spiel, z.B. Items
+
+	Bilder:
+		-Titelbildschirm
+		-Hintergrundbild
+		-Ladebildschirm
+		-Icons
+
+	Tabellen:
+		-Highscore 
+
 //KOMMENTARE//
 
 
@@ -567,12 +548,67 @@ Ich hab das halt so verstanden dass ich so containermäßig das was zusammengeh�
 Bei den Inventarslots in den Anzeigen wusste ich nicht, wie ich diese kategorisieren sollte und
 hab sie einfach Anzeige genannt.
 
-	
+===================================
+=== Feedback Alpers, 2016-08-31 ===
+===================================
 
+== (1) ==
+Bitte orientieren Sie sich NICHT an Projekten Ihrer Kommilitonen. Es geht beim Projekt 1 vor allem darum, dass Sie selbst üben, eine Projekt zu konzipieren, zu strukturieren, das ganze umzusetzen und dabei kontinuierlich Verbesserungen einzubauen. Wenn Sie sich an Projekten von Kommilitonen orientieren, dann kopieren Sie unter Umständen Mängel, die ich übersehen habe. Und vor allem haben Sie dann nicht genau die Übung, die Sie brauchen, um später selbständig Projekte umzusetzen.
 
+== (2) ==
+Bei den strukturellen Elementen haben Sie ganz gut angefangen, allerdings sind Sie zum Teil schon bei den Gruppen und Ansichten gelandet und haben Dinge als strukturelle Elemente definiert, die keine sind:
 
+= Bsp. =
+-04- Eingabefläche / Login
 
+Ein Log-In ist beispielsweise eine Gruppe. Aber nehmen wir an, Sie hätten hier gemeint, dass da ein Feld für eine Texteingabe angezeigt werden soll, in dem Nutzer ihren Username eingeben können, dann wäre das ein Textfeld (oder ähnliches, siehe Skript). Eingabefläche ist für unsere Zwecke eine zu ungenauer Begriff, da es sich ja auch um ein Feld handeln könnte, über das bei einem Touchscreen ein Text mit einem Stift geschrieben werden könnte.
 
+-09- Text / Tutorial
 
+Texte sind kein strukturelles Element, sondern können in unterschiedlichen strukturellen Elementen eingesetzt werden. Beispiele für strukturelle Elemente, in denen Texte eingesetzt werden können sind Optionen, Absätze, Summaries, Listenelemente
 
+-10- Schaltfläche / Zurück
 
+Hier müssen Sie genau prüfen, ob Sie tatsächlich eine Schaltfläche meinen oder z.B. einen Link. Wenn das anwählen dieses strukturellen Elements beispielsweise bewirken soll, dass eine frühere Ansicht geladen/geöffnet werden soll, dann ist es ein Link. Für Nutzer sehen bestimmte Links aus wie Schaltflächen, deshalb ist es anfangs schwierig, zwischen beiden zu unterscheiden.
+
+-32- Interaktionsmöglichkeit / Leertaste / Seil abfeuern
+
+Hier zeigt sich leider ein Missverständnis: Die Leertaste ist Teil einer Tastatur, strukturelle Elemente sind dagegen Teile einer Anwendung.
+
+== (3) ==
+Die strukturellen Elemente sollen außerdem direkt aus der Projektidee abgeleitet sein. Dort steht:
+
+- "Das Grundprinzip der Anwendung ist ein Spiel."
+Gut, aus diesem Satz der Beschreibung können wir kein strukturelles Element ableiten.
+
+- "Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten."
+Und hier zeigt sich die formale Schwäche Ihrer Beschreibung: Es gibt keine "diversen" strukturellen Elemente. Da müssen Sie in der Beschreibung genauer werden.
+Aber schauen wir uns mal Ihre Aufstellung oben an: Da müsste sich jetzt also ein strukturelles Element für das Startmenü finden. Aber genau das ist nicht der Fall. ;(
+
+- "Man wird seinen Benutzernamen eingeben und bestätigen können, "
+Dazu passt evtl. -04- Eingabefläche / Login aber dann fehlen noch drei (streng genommen sogar noch mehr) strukturelle Elemente: Das Label neben dem "Eingabefeld" und der ...-Button, über den die Eingabe abgeschickt wird.
+
+Bitte überarbeiten Sie die Beschreibung jetzt so, dass daraus die strukt.html abgeleitet werden kann und passen Sie die strukturellen Elemente an, bzw. Erstellen Sie alle nötigen strukturellen Elemente.
+
+Wertung 3: Ausarbeitung der strukt. Elem.: gesamt: 3 / 10
+- Knappe Form: 3
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1: 2
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. bis -5: -2
+
+== (4) ==
+Wenn Sie die oben genannten Änderungen durchgeführt haben, passen Sie bitte die Gruppen an. Die sind ansonsten weitgehend sehr gut.
+
+Wertung 4: Gruppierungen: 5 / 5
+- für jede sinnvolle Gruppe: 1
+
+== (5) ==
+Die Ansichten dagegen sind schlecht. Hier sollen ausschließlich die Gruppen aufgeführt werden, keine neuen strukturellen Elemente. So wie Sie hier herangegangen sind war die ganze Arbeit, die Sie in die strukturellen Elementen und Gruppen investiert haben unnötig und das wäre schade.
+
+== (6) ==
+Lesen Sie sich bezüglich der HTML-Dateien bitte den Abschnitt unter (2. Erstes HTML) in EMIL ganz bis zum Ende durch. Da stehen einige sehr wichtige Hinweise.
+
+- Momentan haben Sie die Dateien falsch benannt und an einer falschen Stelle gespeichert.
+- Sie haben Dateien programmiert, die nicht in der strukt.html auftauchen.
+- Sie haben Unterverzeichnisse erzeugt, die nicht den Vorgaben entsprechen.
+- Es fehlt das Unterverzeichnis für die Gruppen.
+- Dass Sie keine Gruppen programmiert haben, liegt wahrscheinlich daran, dass Sie den Entwurf der Ansichten nicht gelöst haben.
