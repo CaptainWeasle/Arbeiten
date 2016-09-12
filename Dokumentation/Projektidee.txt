@@ -1,55 +1,46 @@
 =============================================
-=== Projektidee CaptainWeasle, 2016-06-01 ===
+=== Projektidee CaptainWeasle, 2016-09-12 ===	Komplett überarbeitet!
 =============================================
 
+//Startbildschirm
 Das Grundprinzip der Anwendung ist ein Spiel. 
-Die Anwendung besteht aus einem Startmenü mit diversen Auswahlmöglichkeiten.
-Man wird seinen Benutzernamen eingeben und bestätigen können, 
-durch eine Interaktionsmöglichkeit in Form einer Schaltfläche verschiedene neue Fenster öffnen können (zB "wie man spielt" und "leaderboards), 
-ein Fenster mit "Einstellungen" öffnen können und die Anwendung beenden.
+Die Anwendung besteht aus einem Startmenü in dem man sich anmelden, registrieren, und auf die Einstellungen zugreifen kann.
+Bei der Registrierung wird man auf ein externes Fenster verwiesen. 
+Bei den Einstellungen "poppt" ein kleines Fenster auf.
 
-Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verweist. 
-Dort wird man die Möglichkeit haben, zwischen verschiedenen Levels (soweit vorhanden) auszuwählen und zu bestätigen. 
-Auch wird es natürlich eine Schaltfläche geben, um zurück zum Titelbildschirm navigieren zu können.
+//Levelselect
+Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verwiesen. 
+Bei der Levelauswahl wird man die Möglichkeit haben, zwischen Level auswählen zu können.
+Außerdem wird man auch auf die Einstellungen zugreifen können und es wird die Möglichkeit geben, per Interaktion (Linksklick/Touch) eine Instanz zurück zu gehen, also zum Startbildschirm.
 
 //Hauptteil & Interaktivität
 Sobald man ein Level ausgewählt hat wird die Spielanwendung geöffnet. 
 In dieser Anwendung wird man seinen Character bewegen- und mit anderen Spielern über das Internet interagiern können. 
-Mit den Pfeiltasten bewegt man sich nach links/rechts oder man duckt/springt. 
-Mit der Leertaste wird man ein Seil abfeuern können, mit dem man sich u.a über Klippen hinweg bewegen kann. 
-Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. 
-Mit der Maus kann man zwischen verschiedenen Items auswählen und sie auf die Tasten 1-3 binden.
-Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege erkunden zu können. 
-Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3 Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. 
-Das Spiel stellt dem Spieler jedoch immer wieder Fallen. 
-Wenn sich der Spieler gerne per Leertaste an der Decke hängt und sich nur durch das Seil bewegt, erkennt das Spiel diese Angewohnheit und stellt dementsprechend Fallen an die Decke (die Decke bricht plötzlich ein). 
-Weil man auch andere Spieler mit Items verletzen kann. 
-Wird ein unfreundlicher Spieler vom Spiel automatisch bestraft, wenn er viel zu oft andere Spieler belästigt, so kann es zB sein, dass ein Spieler (, der unfreundlich spielt) automatisch an den Anfang des Levels teleportiert wird, wenn er sich einem anderen Spieler "gefährlich" nähert. 
-"Unfreundliche Spieler" werden bei wiederholtem unfreundlichen Verhalten gewarnt und in ein seperates Level "verschoben",
-welcher explizit für "unfreundliche Spieler" erstellt werden würde und die unfreundliche Spieler auf die Probe stellt.
+Man wird seinen Character nach links, rechts bewegen können, sowie sich zu ducken und zu springen.
+Ausgeführt werden diese Aktionen per Tastendruck (soweit Tastatur vorhanden) oder per Touch Eingabe
+und dementsprechend vorhandene Interaktionsfelder.
+Als Spezialaktion wird man in der Lage sein, ein Seil abzufeuern um seinen Character über mögliche Hindernisse hinweg zu schwingen. Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. Man kann zwischen verschiedenen Items auswählen und sie auf die (3) Aktionsslots binden. Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege erkunden zu können. Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3 Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. 
+Das Spiel stellt dem Spieler immer wieder Fallen, welche sich dynamisch an den Spielstil jedes
+Spielers anpasst. Wenn ein Spieler z.B. überdurchschnittlich oft sein Seil als Fortbewegungsmittel verwendet, wird eine mögliche Falle sein, dass die Decke abstürtzt, oder mehr fliegende Gegner kommen. Spieler, welche durch negatives Verhalten auffallen, werden vom Spiel automatisch bestraft und in ein externes Level befördert. Diese werden dort, je nach aufgefallenem negativem Spielverhalten, auf die Probe gestellt.
 
-Ist das Spiel beendet worden, kommt automatisch ein Bildschirm, welcher dem Anwender die Möglichkeit bietet, das Spiel neu zu
-starten, sich die "Highscores" anzuschauen, das vorhin ausgewählte Level zu wechseln und die Anwendung komplett zu beenden.
+In der Spielanwendung wird man auf über Tasteninteraktion (Linksklick/Touch) auf ein bestimmtes Symbol Zugriff auf folgende Features haben: 
+	
+	-Inventar
+	-Freundesliste		
+	-Character 					
+	-Characterübersicht
+	-Karte
+	-Einstellungen
 
+Jedes dieser Features verweist den Spieler auf ein neues Fenster, sondern öffnet ein Pop-up Fenster
+im Spiel!
 
-=============================================
-=== Projektidee CaptainWeasle, 2016-04-05 ===
-=============================================
+//Endscreen
+Wird das Spiel über die Einstellungen beendet, so hat man weitere Navigationsmöglichkeiten.
+Man wird das Spiel von einem neuen Level aus neu starten können, man wird sich Leaderboards anschauen können, die Einstellungen ändern und das Spiel endgültig beenden können.
+Bei Neustart wird man auf das Levelselect Fenster verwiesen, bei Leaderboards wird man auf ein externes Fenster verwiesen, und die Einstellungen öffnen nur ein Pop-up Fenster.
 
-Grundprinzip:\
-\
-Meine Projektidee ist ein Spiel zu programmieren. 
-Die interaktive Funktion dieses Spiels ist es, eine Figur durch ein level zu lenken. 
-Dabei hat man die Möglichkeit, diese Figur nach links, rechts zu steuern und zu springen. 
-Die Figur soll ein seil abfeuern können, welche an der wand festhängt und mit dem man sich über Hindernisse hinweg schwingen kann. \
-\
-Verbesserungen:\
-\
-Das Programm soll diverse Interaktionen bieten können, wie zB Abgründe oder Gegner, welche zum scheitern des Spiels führen soll.\
-\
-Es sollen Modifikationen des Spielverlaufes möglich sein, zB dass man ein gewisses Item aufhebt und dementsprechend beeinflusst wird.\
-\
-
+Das Spiel soll optimiert mit Tastatur, als auch auf Touchscreens bedient werden können.
 
 //KOMMENTARE
 
