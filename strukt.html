@@ -2,15 +2,18 @@
 	
 	--Mit "Absatz" ist hier die Möglichkeit gemeimt, dass ich beliebigen Text einfügen kann.
 	Das wäre dann ungefaähr wie der <p></p> Container. So mein ich das--
+	Und Textfeld bedeutet natürlich eine Eingabemöglichkeit für den Benutzer.
 
-
+	-70- Textfeld / Captcha
 	-01- Bild / Hintergrund
 	-02- Bild / Spiellogo
 	-03- Absatz, bzw die Möglichkeit von mir beliebigen Text einzufügen / Begrüßung
 	-04- Textfeld / Login
+	-69- Label / Login
 	-05- Textfeld / Passwort
+	-70- Label / Passwort
 	-06- Link / Registrieren			/Hier wird man auf eine weitere Seite verwiesen
-	-07- Schaltfläche / Link / Login 	/Login wird bestätigt und man wird verwiesen
+	-07- Schaltfläche/ Button / Link / Login 	/Login wird bestätigt und man wird verwiesen
 	-10- Link / Zurück
 	-11- Link / Leaderboards
 	-12- Tabelle / Leaderborads
@@ -78,19 +81,8 @@
 ___________________________________________________________________________________________________
 
 //GRUPPEN STRUKTURELLER ELEMENTE//Stand: 02.08.2016
-	_____________________
-	I. starting screen
-	_____________________
-
-		-01- Bild / Hintergrund
-		-02- Bild / Spiellogo
-		-11- Musik / Hintergrundmusik
-		-04- Schaltfläche / Spiel beenden
-
-		-03- Schaltfläche / gesamter Bildschirm -> II.
-		
-	_____________________
-	II. login screen
+	
+	I. starting/login screen
 	_____________________
 
 		-01- Bild / Hintergrund
@@ -99,27 +91,30 @@ ________________________________________________________________________________
 		-04- Schaltfläche / Spiel beenden
 		
 		-05- Eingabefläche / Login
+		-62- Label / Login
 		-06- Eingabefläche / Passwort
-		-07- Eingabefläche / Captcha
-		-08- Schaltfläche / Login bestätigen -> III.
+		-63- Label / Passwort
+		-07- Textfeld / Captcha
+		-64- Bild / Captcha
+		-08- Schaltfläche / Login bestätigen -> II.
 		-09- Schaltfläche / Einstellungen -> IV. 
 		-10- Schaltfläche / Registrieren -> 
-		-15- Schaltfläche / Tutorial
 
 	_____________________
-	III. level select
+	II. level select
 	_____________________
 
 		-01- Bild / Hintergrund
 		-02- Bild / Spiellogo
 		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / zurück
+		-15- Schaltfläche / Link / zurück
 
 
 		-12- Bild / Level
-		-13- Schaltfläche / Level bestätigen -> [V. VI. VII.]
-		-14- Schaltfläche / Level wechseln 
-		-16- Text / Informationen zum Level
+		-65- Schaltfläche / Link / Einstellungen
+		-13- Schaltfläche / Link / Level bestätigen -> [V. VI. VII.]
+		-14- Interaktionsmöglichkeit / Level wechseln 
+		-16- Absatz / Informationen zum Level
 	
 	_____________________
 	IV. settings
@@ -128,7 +123,7 @@ ________________________________________________________________________________
 		-01- Bild / Hintergrund
 		-02- Bild / Spiellogo
 		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / zurück
+		-15- Schaltfläche / button / schließen
 
 		-17- Schaltfläche / Sound ON, OFF
 		-18- Schaltflächen / Pfeiltasten ein- ausblenden
@@ -137,30 +132,29 @@ ________________________________________________________________________________
 	V. character controls
 	_____________________
 
-		-19- Interaktionsmöglichkeit / Pfeiltaste Links / laufen nach links
-		-20- Interaktionsmöglichkeit / Pfeiltaste Rechts / laufen nach rechts
-		-21- Interaktionsmöglichkeit / Pfeiltaste Unten / ducken oder sliden
-		-22- Interaktionsmöglichkeit / Pfeiltaste Oben / springen
-		-23- Interaktionsmöglichkeit / Leertaste / Seil abfeuern
-		-24- Interaktionsmglichekeit / Enter / Chat aufrufen
+		-19- Interaktionsmöglichkeit / (Pfeiltaste Links) / laufen nach links
+		-20- Interaktionsmöglichkeit / (Pfeiltaste Rechts) / laufen nach rechts
+		-21- Interaktionsmöglichkeit / (Pfeiltaste Unten) / ducken oder sliden
+		-22- Interaktionsmöglichkeit / (Pfeiltaste Oben) / springen
+		-23- Interaktionsmöglichkeit / (Leertaste) / Seil abfeuern
 	
 	_____________________
-	VI. keybinds	
+	(VI. keybinds) nur in PC Version verfügbar, also ziemlich irrelevant fürs erste	
 	_____________________
 
 
-		-25- Interaktionsmöglichkeit / ESC / Einstellungen aufrufen -> IV.
-		-26- Interaktionsmöglichkeit / Taste "I" / Inventar öffnen
-		-27- Interaktionsmöglichkeit / Taste "1" / Item einsetzen
-		-28- Interaktionsmöglichkeit / Taste "2" / Item einsetzen
-		-29- Interaktionsmöglichkeit / Taste "3" / Item einsetzen
-		-30- Interaktionsmöglichkeit / Taste "C" / Charaktermenü öffnen
-		-31- Interaktionsmöglichkeit / Taste "M" / Karte aufrufen
-		-32- Interaktionsmöglichkeit / Taste "L" / Questlog aufrufen
-		-33- Interaktionsmöglichkeit / Taste "X" / angreifen	
-		-34- Interaktionsmöglichkeit / Taste "Y" / interagieren, sprechen, "OK", Items aufheben
-		-35- Interaktionsmöglichkeit / linke Maustaste / interagieren, "OK", Items bewegen
-		-36- Interaktionsmöglichkeit / rechte Maustaste / weitere Interaktionsmöglichkeiten zeigen
+		-25- Interaktionsmöglichkeit / (ESC) / Einstellungen aufrufen -> IV.
+		-26- Interaktionsmöglichkeit / (Taste "I") / Inventar öffnen
+		-27- Interaktionsmöglichkeit / (Taste "1") / Item einsetzen
+		-28- Interaktionsmöglichkeit / (Taste "2") / Item einsetzen
+		-29- Interaktionsmöglichkeit / (Taste "3") / Item einsetzen
+		-30- Interaktionsmöglichkeit / (Taste "C") / Charaktermenü öffnen
+		-31- Interaktionsmöglichkeit / (Taste "M") / Karte aufrufen
+		-32- Interaktionsmöglichkeit / (Taste "L") / Questlog aufrufen
+		-33- Interaktionsmöglichkeit / (Taste "X") / angreifen	
+		-34- Interaktionsmöglichkeit / (Taste "Y") / interagieren, sprechen, "OK", Items aufheben
+		-35- Interaktionsmöglichkeit / (linke Maustaste) / interagieren, "OK", Items bewegen
+		-36- Interaktionsmöglichkeit / (rechte Maustaste) / weitere Interaktionsmöglichkeiten zeigen
 	
 	______________________
 	VII. interface
@@ -171,9 +165,11 @@ ________________________________________________________________________________
 		-04- Schaltfläche / Spiel beenden
 		-09- Schaltfläche / Einstellungen -> IV.
 		-53- Schaltfläche / Ja, Nein
-		-54- Schaltfläche / Levelauswahl
-		-55- Schaltfläche / Logout
+		-54- Schaltfläche / Link / Levelauswahl
+		-55- Schaltfläche / Link / Logout
 
+		-66- Schaltfläche / Chat aufrufen
+		-67- Interaktionsmöglichkeit / Texteingabe durch Chat
 		-37- Schaltfläche / Inventar aufrufen
 		-38- Schaltfläche / Charaktermenü aufrufen
 		-39- Schaltfläche / Questlog aufrufen
@@ -183,13 +179,14 @@ ________________________________________________________________________________
 		-42- Schaltfläche / Item 1 einsetzen
 		-43- Schaltfläche / Item 2 einsetzen
 		-44- Schaltfläche / Item 3 einsetzen
+						...
 
 		-45- Anzeige / Erfahrung
 		-46- Bild / Level-Up
 		-47- Bild / Level geschafft
 		-48- Bild / Dungeon geschafft
 		-49- Schaltfläche / "OK"
-		-50- Text / Itembeschreibungen
+		-50- Absatz / Itembeschreibungen
 
 	______________________
 	IX. interaction
@@ -207,11 +204,11 @@ ________________________________________________________________________________
 		-01- Bild / Hintergrund
 		-11- Musik / Hintergrundmusik
 		-04- Schaltfläche / Spiel beenden
-		-09- Schaltfläche / Einstellungen -> IV.
+		-09- Schaltfläche / Button / Einstellungen -> IV.
 
-		-56- Text / Score
-		-57- Schaltfläche / Leaderboards
-		-58- Schaltfläche / Highscores -> Tabelle / Highscores
+		-56- Absatz / Score
+		-57- Schaltfläche / Button / Leaderboards
+		-67- Schaltläche / Link / Levelselect -> II.
 
     ______________________
 	XI. registration
@@ -220,14 +217,18 @@ ________________________________________________________________________________
 		-01- Bild / Hintergrund
 		-02- Bild / Spiellogo
 		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / zurück
+		-15- Schaltfläche / Link / zurück
 
-		-05- Eingabefläche / Login
-		-06- Eingabefläche / Passwort
-		-07- Eingabefläche / Captcha
-		-59- Eingabefläche / Email
-		-60- Schaltfläche / bestätigen
-		-61- Text / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
+		-05- Textfeld / Login
+		-68- Label / Login
+		-06- Textfeld / Passwort
+		-69- Label / Passwort
+		-07- Textfeld / Captcha
+		-70- Label / Captcha
+		-59- Textfeld / Email
+		-71- Label / Email
+		-60- Schaltfläche / Button / bestätigen
+		-61- Absatz / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
 ___________________________________________________________________________________________________
 
 //ANSICHTEN//Stand: 04.08.2016

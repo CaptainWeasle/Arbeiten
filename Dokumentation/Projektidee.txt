@@ -7,9 +7,9 @@ Das Grundprinzip der Anwendung ist ein Spiel.
 Die Anwendung besteht aus einem Startmenü in dem man sich anmelden, registrieren, und auf die Einstellungen zugreifen kann.
 Bei der Registrierung wird man auf ein externes Fenster verwiesen. 
 Bei den Einstellungen "poppt" ein kleines Fenster auf.
+Wenn man sich anmeldet, wird man per Link zur Levelauswahl weitergeleitet.
 
 //Levelselect
-Bei Bestätigung des Benutzernames wird man zu einer Levelauswahl verwiesen. 
 Bei der Levelauswahl wird man die Möglichkeit haben, zwischen Level auswählen zu können.
 Außerdem wird man auch auf die Einstellungen zugreifen können und es wird die Möglichkeit geben, per Interaktion (Linksklick/Touch) eine Instanz zurück zu gehen, also zum Startbildschirm.
 
@@ -19,9 +19,9 @@ In dieser Anwendung wird man seinen Character bewegen- und mit anderen Spielern 
 Man wird seinen Character nach links, rechts bewegen können, sowie sich zu ducken und zu springen.
 Ausgeführt werden diese Aktionen per Tastendruck (soweit Tastatur vorhanden) oder per Touch Eingabe
 und dementsprechend vorhandene Interaktionsfelder.
-Als Spezialaktion wird man in der Lage sein, ein Seil abzufeuern um seinen Character über mögliche Hindernisse hinweg zu schwingen. Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. Man kann zwischen verschiedenen Items auswählen und sie auf die (3) Aktionsslots binden. Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege erkunden zu können. Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur 3 Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. 
+Als Spezialaktion wird man in der Lage sein, ein Seil abzufeuern um seinen Character über mögliche Hindernisse hinweg zu schwingen. Es wird die Möglichkeit geben, Items aufzusammeln, zu kaufen und zu verwenden. Man kann zwischen verschiedenen Items auswählen und sie auf die (3) Aktionsslots binden. Manche Level sind so ausgelegt, dass man andere Spieler mit verschiedenen Items zur Hilfe nehmen muss, um bestimmt Wege erkunden zu können. Wenn man alles erkunden möchte, empfielt es sich mindestens einen Partner zu haben, weil man selbst nur eine limitierte Anzahl an Items haben kann, und bei manchen Pfaden auf andere Items angewiesen ist. 
 Das Spiel stellt dem Spieler immer wieder Fallen, welche sich dynamisch an den Spielstil jedes
-Spielers anpasst. Wenn ein Spieler z.B. überdurchschnittlich oft sein Seil als Fortbewegungsmittel verwendet, wird eine mögliche Falle sein, dass die Decke abstürtzt, oder mehr fliegende Gegner kommen. Spieler, welche durch negatives Verhalten auffallen, werden vom Spiel automatisch bestraft und in ein externes Level befördert. Diese werden dort, je nach aufgefallenem negativem Spielverhalten, auf die Probe gestellt.
+Spielers anpasst. Wenn ein Spieler z.B. überdurchschnittlich oft sein Seil als Fortbewegungsmittel verwendet, wird eine mögliche Falle sein, dass die Decke abstürtzt, oder mehr fliegende Gegner erscheinen. Spieler, welche durch negatives Verhalten auffallen, werden vom Spiel automatisch bestraft und in ein externes Level befördert. Diese werden dort, je nach aufgefallenem negativem Spielverhalten, auf die Probe gestellt.
 
 In der Spielanwendung wird man auf über Tasteninteraktion (Linksklick/Touch) auf ein bestimmtes Symbol Zugriff auf folgende Features haben: 
 	
@@ -38,9 +38,13 @@ im Spiel!
 //Endscreen
 Wird das Spiel über die Einstellungen beendet, so hat man weitere Navigationsmöglichkeiten.
 Man wird das Spiel von einem neuen Level aus neu starten können, man wird sich Leaderboards anschauen können, die Einstellungen ändern und das Spiel endgültig beenden können.
-Bei Neustart wird man auf das Levelselect Fenster verwiesen, bei Leaderboards wird man auf ein externes Fenster verwiesen, und die Einstellungen öffnen nur ein Pop-up Fenster.
+Bei Neustart wird man auf das Levelselect Fenster verwiesen, bei Leaderboards wird ein (nicht externes!) Fenster geöffnet, welches eine Tabelle mit den Leaderboards zeigt, und die Einstellungen öffnen ein Pop-up Fenster.
+
+Jedes Popup Fenster wird die Möglichkeit bieten, es per Interaktion schließen zu können.
 
 Das Spiel soll optimiert mit Tastatur, als auch auf Touchscreens bedient werden können.
+
+
 
 //KOMMENTARE
 
