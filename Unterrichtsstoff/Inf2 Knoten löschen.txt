@@ -1,0 +1,53 @@
+public class Node{
+	
+	//KONSTRUKTOR
+	public Node (int a){
+		private int value = a;
+		private Node next = this;
+	}
+
+	//METHODEN
+	//löschen
+	public void delete(int a){
+
+		if(getNext() != this){
+			if(getNext().value() != a){
+				getNext()delete(a);
+			}else{
+				this.next = getNext().getNext();
+			}
+		}
+	}
+
+	//einfügen
+	public void insert(Node node){
+		
+		if(this.next != this){
+			if(this.next.value < node.getValue()){
+					Node sucsuc = next.getNext();
+					node.setNext(sucsuc);
+					this.next = node;
+				}else{
+					this.next.insert(node);
+				}
+		}else{
+		this.next = node;
+		}
+	}
+
+	//zum nächsten
+	public Node getNext(){
+		return next;
+	}
+
+	//Wert bekommen
+	public int getValue(){
+		return value();
+	}
+		}
+
+
+
+
+
+}
