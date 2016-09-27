@@ -82,13 +82,17 @@ ________________________________________________________________________________
 
 //GRUPPEN STRUKTURELLER ELEMENTE//Stand: 02.08.2016
 	
-	I. starting/login screen
-	_____________________
-
-		-01- Bild / Hintergrund
+	
+        0. metadaten
+    -----------------------------
+        -01- Bild / Hintergrund
 		-02- Bild / Spiellogo
 		-11- Musik / Hintergrundmusik
-		-04- Schaltfläche / Spiel beenden
+		-04- Schaltfläche / Spiel beenden/ zurück
+
+
+        I. starting/login screen
+	   _____________________
 		
 		-05- Eingabefläche / Login
 		-62- Label / Login
@@ -104,11 +108,6 @@ ________________________________________________________________________________
 	II. level select
 	_____________________
 
-		-01- Bild / Hintergrund
-		-02- Bild / Spiellogo
-		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / Link / zurück
-
 
 		-12- Bild / Level
 		-65- Schaltfläche / Link / Einstellungen
@@ -120,10 +119,6 @@ ________________________________________________________________________________
 	IV. settings
 	_____________________
 
-		-01- Bild / Hintergrund
-		-02- Bild / Spiellogo
-		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / button / schließen
 
 		-17- Schaltfläche / Sound ON, OFF
 		-18- Schaltflächen / Pfeiltasten ein- ausblenden
@@ -201,10 +196,6 @@ ________________________________________________________________________________
 	X. ending screen
 	______________________
 
-		-01- Bild / Hintergrund
-		-11- Musik / Hintergrundmusik
-		-04- Schaltfläche / Spiel beenden
-		-09- Schaltfläche / Button / Einstellungen -> IV.
 
 		-56- Absatz / Score
 		-57- Schaltfläche / Button / Leaderboards
@@ -214,10 +205,6 @@ ________________________________________________________________________________
 	XI. registration
 	______________________
 
-		-01- Bild / Hintergrund
-		-02- Bild / Spiellogo
-		-11- Musik / Hintergrundmusik
-		-15- Schaltfläche / Link / zurück
 
 		-05- Textfeld / Login
 		-68- Label / Login
@@ -229,6 +216,13 @@ ________________________________________________________________________________
 		-71- Label / Email
 		-60- Schaltfläche / Button / bestätigen
 		-61- Absatz / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
+    
+    ______________________
+    XII.    leaderboards
+    _____________________
+
+        -71- Tabelle/ leaderboards
+        -72- Schaltfläche / zurück
 ___________________________________________________________________________________________________
 
 //ANSICHTEN//Stand: 04.08.2016
@@ -237,125 +231,55 @@ ________________________________________________________________________________
 	--- view_login ---
 	------------------
 
-		group login?
+		I. starting screen/ login screen
+        0. metadaten
 
-	----------------------------
-	--- view_backgroundlogin ---
-	----------------------------
-
-		-Bild / backgroundimage
-		-Musik / backgroundmusik
-		-Schaltfläche / end_game
-		-Schaltfläche / open_settings
 
 	-------------------------
 	--- view_registration ---
 	-------------------------
+        
+        0. metadaten
+		XI. registration                  //Hier bei login und registration kann man durchaus eine Gruppe                                         machen, in der man die strukturellen Elemente der Eingabe                                             zusammenfasst und die jeweiligen Unterschiede extra hnschreibt.
+                                            Hab ich jetzt nicht so gemacht, sondern wie man sehen kann, jeweils eine Gruppe für beides. 
 
-		-Eingabemöglichkeit / username
-		-Eingabemöglichkeit / passwort
-		-Eingabemöglichkeit / captcha
-		-Eingabemöglichkeit / email
-		-Schaltfläche / registration
 
-	---------------------------
-	--- backgroundmapselect ---
-	---------------------------
-
-		-Bild / backgroundimage
-		-Musik / backgroundmusik
-		-Schaltfläche / back
-		-Schaltfläche / open_settings
 
 	------------------------
 	--- view_levelselect ---
 	------------------------
 
-		-Bild / levelimage
-		-Schaltfläche / switch_level_left
-		-Schaltfläche / switch_level_right
-		-Schaltfläche / select_level
+    0. metadaten
+    II. levelselect
 
 	----------------------------
-	--- view_ingameinterface ---
+	--- view_ingame ---
 	----------------------------
 
-		-Anzeige / healthbar
-		-Anzeige / expbar
-		-Anzeige / level/rank
-
-		-Schaltfläche / open_inventory
-		-Schaltfläche / open_friendslist
-		-Schaltfläche / open_charactermenu
-		-Schaltfläche / open_map
-		-Schaltfläche / open_questlog
-		-Schaltfläche / open_settings
-		-Schaltfläche / logout
-		-Schaltfläche / end_game
-
-		-Schaltfläche / use_item1
-		-Schaltfläche / use_item2
-		-Schaltfläche / use_item3
+    V. charactercontrols
+    VII. interface
+    IX. interaction
 
 	---------------------
 	--- view_settings ---
 	---------------------
 
-		-Schaltfläche / sound_on
-		-Schaltfläche /sound_off
-		-Schaltfläche / enable_keyboard
-		-Schaltfläche / disable_keyboard
-		-Schaltfläche / close
+    0. metadaten
+    IV. settings
 
-	----------------------
-	--- view_inventory ---
-	----------------------
-
-		-Schaltfläche / close
-		-Schaltfläche / armor
-		-Schaltfläche / items
-		-Schaltfläche / consumables
-		-Anzeige / currency
-		-Anzeige / item_slots
-
-	------------------
-	--- view_map -----
-	------------------
-
-		-Bild / image_map
-		-Schaltfläche / close
-
-	------------------------
-	--- view_friendslist ---
-	------------------------
-
-		-Schaltfläche / close
-		-Anzeige / player_names
-		-Schaltfläche / add_friend
-		-Schaltfläche / remove_friend
-
-	--------------------------
-	--- view_charactermenu ---
-	--------------------------
-
-		-Schaltfläche / close
-		-Anzeige / health
-		-Anzeige / item_slots
-		-Bild / character_image
-
-	---------------------
-	--- view_questlog ---
-	---------------------
-
-		-Schaltfläche / close
-		-Anzeige / quest
+	-------------------------
+	--- view_ending screen---
+	-------------------------
+    0.metadaten
+    X. ending screen
 
 	-------------------------
 	--- view_leaderboards ---
 	-------------------------
 
-		-Text / username
-		-Tabelle / scores
+	0. metadaten
+    XII. leaderboards
+    
 ___________________________________________________________________________________________________
 
 <!doctype html>
