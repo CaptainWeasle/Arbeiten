@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang = de>
 
@@ -46,10 +46,12 @@
                             Login!
                         </label> 
                             
-                            <input type=submit name=submit_login>
-                    
+                            <a href=ingame.php>
+                                <input type=submit name=submit_login>
+                            </a>
+                        
                         <label>
-                            <a href="registration">
+                            <a href=registration.php>
                                 Registrieren...
                             </a>
                         </label>
@@ -66,21 +68,21 @@
 		
         <aside>
             <p>
-                <a href=view_settings.html> <!--Link zu den Einstellungen-->
+                <a href=settings.php> <!--Link zu den Einstellungen-->
                     Hier 
                 </a>
                     gehts zu den Einstellungen
             </p>
             
             <p>
-                <a href=view_registration.html>
+                <a href=registration.php>
                     Hier
                 </a>
                     kann man sich registrieren
             </p>
             
             <p>
-                <a href=view_login.html>
+                <a href=index.php>
                     Hier
                 </a>
                     kann man sich anmelden

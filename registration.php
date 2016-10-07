@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang=de>
     
     <head>
@@ -43,8 +45,10 @@
                     <label for=submit_registration>
                         Registrieren!
                     </label>
-                    
-                        <input type=submit name=submit_registration>
+                        <a href=index.php>
+                            <input type=submit name=submit_registration>
+                        </a>
+                        
                 </fieldset>
             </form>
         </main>
@@ -52,21 +56,21 @@
         
         <aside>
             <p>
-                <a href=view_settings.html> <!--Link zu den Einstellungen-->
+                <a href=settings.php> <!--Link zu den Einstellungen-->
                     Hier 
                 </a>
                     gehts zu den Einstellungen
             </p>
             
             <p>
-                <a href=view_registration.html>
+                <a href=registration.php>
                     Hier
                 </a>
                     kann man sich registrieren
             </p>
             
             <p>
-                <a href=view_login.html>
+                <a href=index.php>
                     Hier
                 </a>
                     kann man sich anmelden
