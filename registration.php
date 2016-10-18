@@ -18,7 +18,7 @@
         
         
         <main id=registration>  
-            <form>
+            <form action=registrationCheck.php>
                 <fieldset>
                     <legend>Registration</legend>
                     

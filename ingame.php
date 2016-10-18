@@ -20,6 +20,12 @@
         
         <main>
             
+            <?php
+            
+            include(game.php);
+            
+            ?>
+                
         </main>
     
         <aside>

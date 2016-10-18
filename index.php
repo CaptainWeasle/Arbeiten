@@ -22,7 +22,7 @@
             
             <!--Hier wird sich die gesamte Loginanzeige befinden-->
             
-            <form name=login>
+            <form name=login action=loginCheck.php>
                 <!--Hier wird sich dann die Programmierung für den Login befinden-->
                 <fieldset>
                     
@@ -60,8 +60,6 @@
                 </fieldset>
             
             </form>
-            
-            
             
             
         </main>
