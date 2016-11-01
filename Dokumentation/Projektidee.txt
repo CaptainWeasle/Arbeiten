@@ -44,7 +44,7 @@ Jedes Popup Fenster wird die Möglichkeit bieten, es per Interaktion schließen 
 
 Das Spiel soll optimiert mit Tastatur, als auch auf Touchscreens bedient werden können.
 
-
+—————————————————————————————————————————————————————————————————————————————————————————
 
 //KOMMENTARE
 
