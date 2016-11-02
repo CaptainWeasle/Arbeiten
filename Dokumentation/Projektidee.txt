@@ -156,3 +156,15 @@ https://github.com/CaptainWeasle/Arbeiten/commit/df2c9811e656942f26f5b5ca2be4893
 (4) Wenn Sie die Projektbeschreibung im fortlaufenden Text anpassen, dann fügen Sie bitte am Anfang einen entsprechenden Hinweis ein. Nur durch die entsprechende Hervorhebung auf GitHub habe ich gesehen, dass Sie unter dem Eintrag vom 4. Mai einen Hinweis am 1. August eingetragen haben. Hinweise wie "... Ich würde Sie bitten, sich das auch mal anzugucken, bzw es wenigstens zu Kommentieren. ..." sind eher schlecht, wenn Sie am Anfang der Dokumentation als Datum den 1. Juni stehen lassen. Denn dann gehe ich davon aus, dass sich seit dem 1. Juni nichts an der Beschreibung geändert hat. In späteren Projekten werden Sie Ticketing-Systeme nutzen, die wesentlich komfortabler und übersichtlicher sind, aber für den Moment müssen Sie in der Datei Projektidee.txt darauf achten, dass neue Einträge leicht zu finden sind.
 
 (5) Bei meinem letzten Feedback hatte ich in Ihrer Beschreibung leider etwas übersehen: Sie haben dort definiert, wie eine Eingabe von Nutzern ausgeführt wird. (Spacetaste drücken u.ä.) Ändern Sie das bitte ab: Es geht im Projekt darum eine systemunahängige Anwendung zu entwickeln und es gibt Systeme ohne Tastatur (z.B. Smartphones).
+
+===================================
+=== Feedback Alpers, 2016-11-02 ===
+===================================
+
+Leider haben Sie wichtige Teile des letzten Feedbacks nicht umgesetzt:
+
+(1) Gilt selbstverständlich auch für zukünftige commits.
+
+(2) Haben Sie nicht umgesetzt.
+
+(5) Ist immer noch nicht vollständig umsetzt.

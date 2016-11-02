@@ -531,3 +531,89 @@ Lesen Sie sich bezüglich der HTML-Dateien bitte den Abschnitt unter (2. Erstes 
 - Sie haben Unterverzeichnisse erzeugt, die nicht den Vorgaben entsprechen.
 - Es fehlt das Unterverzeichnis für die Gruppen.
 - Dass Sie keine Gruppen programmiert haben, liegt wahrscheinlich daran, dass Sie den Entwurf der Ansichten nicht gelöst haben.
+
+===================================
+=== Feedback Alpers, 2016-11-02 ===
+===================================
+
+=== I.) Strukturelle Elemente
+
+== I.1.) "Interaktives Element" ist deshalb schlecht, weil es eine Vielzahl interaktiver Elemente gibt, die wir in HTML programmieren können. Hier sollten Sie festlegen, welche es sein soll.
+
+== I.2.) -07- Schaltfläche/ Button / Link / Login 	/Login wird bestätigt und man wird verwiesen
+
+Hier müssen Sie festlegen: Soll es eine Schaltfläche (aka Button) sein oder ein Link?
+
+== I.3.) Elemente, die in Gruppen nicht oder unter anderem Namen auftauchen:
+
+-12- Tabelle / Leaderborads
+
+In den Gruppen ist unter dieser Nummer etwas anderes aufgeführt. Und das ist nicht der einzige Fall.
+
+== I.4.) Doppelte Elemente nicht eliminiert.
+
+Ein Teil der Arbeit bei der Entwicklung der Struktur besteht darin, Duplikate zu eliminieren. Das haben Sie hier nicht vollständig getan. So sind die beiden folgenden Elemente offensichtlich doppelt:
+
+-68- Textfeld / Captcha
+-70- Textfeld / Captcha
+
+== I.5.) Falsch betitelte Elemente
+
+Für die beiden gerade genannten Elemente: Ein Captcha ist eine Grafik/ein Bild.
+
+-04- Textfeld / Login
+Das wäre ein Eingabefeld. (Leider habe ich diesen Begriff in der Vergangenheit selbst häufig verwendet.)
+
+== I.6.) Pop-Ups sind Design.
+
+Natürlich sind Pop-Ups eine praktische Möglichkeit. Aber Sie sollen im Rahmend dieses Projekts zeigen, dass Sie mit beschränkten Möglichkeiten zurechtkommen. In diesem Fall wäre das alles, was wir in der Veranstaltung besprochen haben bzw. das Sie im Skript/Buch finden.
+
+== I.7.) Absätze sind Texte.
+
+-16- Absatz / Sound
+
+Es ist eine gute Idee, an den Einsatz von Musik (z.B. als Hintergrundmusik/Endlosschleife) zu denken. Aber dafür nutzen wir die entsprechenden Container. Wir können zwar auch innerhalb eines Absatzes einen Musik-Container platzieren, aber ein Absatz ist dafür gedacht, Text zu beinhalten.
+
+== I.8.) Schaltflächen lösen etwas aus.
+
+-17- Schaltfläche / Sound ON, OFF
+-18- Schaltfläche / Pfeiltasten einblenden, ausblenden
+
+Für Änderungen sollten Sie dagegen Radio Buttons verwenden. Wenn Sie im Sinne des Designs lieber eine Schaltfläche mit sich ändernder Beschriftung verwenden wollen, dann ist das eben eine Designentscheidung, aber hier soll es rein um die Struktur gehen.
+
+================================================================
+=== Wertung 3: Ausarbeitung der strukt. Elem. gesamt: 7 / 10 ===
+================================================================
+- Knappe Form 0 bis 3 Pk.: 3
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1 Pk., 0 bis 7 Pk.: 4
+=== (Malus bei strukt. Elem.) ===
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. bis zu 5 Pk. Abzug: 
+(Dies ist keine abschließende Wertung.)
+
+=== II.) Gruppen
+
+== II.1.) 0. metadaten
+
+Die Idee für diese Gruppe ist gut. Allerdings sollten Sie die Schaltfläche für "Spiel beenden" entfernen. Dann können Sie die Gruppe flexibler einsetzen.
+
+== II.2.) Falsche strukturelle Elemente
+
+Leider führen Sie bei den Gruppen an mehreren Stellen (am Anfang ungefähr jedes dritte Mal) ganz andere strukturelle Elemente ein als die, die Sie unter den strukturellen Elementen notiert haben. Damit sind die Gruppen zurzeit nicht bewertbar.
+
+=== III.) Ansichten
+
+Ihre Ansichten sind effektiv identisch mit den Gruppen. Das ist schlecht: Gruppen sollen einzelne Funktionalitäten der Anwendung bündeln, die für sich als Einheit Sinn machen. Ein Log-In ist solche in Fall. Ein Chat wäre eine anderer Fall.
+
+Eine Ansicht ist dann die Kombination mehrere Gruppen zu einem sinnvollen ganzen. Beispielsweise kann bei eine Ansicht einen Auszug der Highscore-Liste, das Spielfeld, das Spielinterface, einen Header und einen Footer oder auch noch andere Dinge kombinieren.
+
+Und genau das ist bei Ihrer Struktur leider nicht erkennbar.
+
+=== IV.) HTML-Umsetzung, genereller Hinweis
+
+Wie im Feedback zur Projektbeschreibung aufgeführt ist es ein Fehler, wenn Sie keine Gruppen programmieren: Erst wenn alle Gruppen einer Ansicht programmiert sind, macht es Sinn die entsprechende Ansicht zu programmieren. Gruppen sollen in Ansichten eingefügt werden. Einfügen bedeutet nicht nochmal programmieren, sondern es bedeutet mit Hilfe von PHP den entsprechenden Code durch einen Server einfügen zu lassen. Das haben wir in der Veranstaltung besprochen und das müssen Sie leisten.
+
+=== V.) Zusammenfassung
+
+Leider überspringen Sie genau die Teile der Projektarbeit, auf die es am meisten ankommt. Genau dadurch haben Sie jetzt Mengen an Code programmiert, der aber eben so lange nicht gewertet wird, bis Sie bewiesen haben, dass Sie ausreichend und systematisch geplant haben. Wie in der Wertung angegeben müssen Sie dazu zunächst 20 Punkte mit der Projektbeschreibung und der Struktur erreicht haben.
+
+Bezüglich Ihrer Anfrage in der Readme.txt: Nein. Ich werde keine individuelle Methoden für jeden der 90 Studierenden umzusetzen, deren Projekte ich betreue.
