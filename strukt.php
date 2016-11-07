@@ -4,7 +4,7 @@
 	Das wäre dann ungefaähr wie der <p></p> Container. So mein ich das--
 	Und Textfeld bedeutet natürlich eine Eingabemöglichkeit für den Benutzer.
 
-	-70- Textfeld / Captcha
+
 	-01- Bild / Hintergrund
 	-02- Bild / Spiellogo
 	-03- Absatz, bzw die Möglichkeit von mir beliebigen Text einzufügen / Begrüßung
@@ -13,8 +13,8 @@
 	-05- Textfeld / Passwort
 	-70- Label / Passwort
 	-06- Link / Registrieren			/Hier wird man auf eine weitere Seite verwiesen
-	-07- Schaltfläche/ Button / Link / Login 	/Login wird bestätigt und man wird verwiesen
-	-10- Link / Zurück
+	-74- Link / Login                 /Man wird zur Levelauswahl weitergeleitet
+    -10- Link / Zurück
 	-11- Link / Leaderboards
 	-12- Tabelle / Leaderborads
 	-13- Link / Credits
@@ -34,35 +34,31 @@
 	-26- Schaltfläche / Spielernamen / Informationen abrufen
 	-27- Absatz / Spielerinformationen
 	
-	-28- Interaktionsmöglichkeit / laufen nach links
-	-29- Interaktionsmöglichkeit / laufen nach rechts
-	-30- Interaktionsmöglichkeit / ducken oder sliden
-	-31- Interaktionsmöglichkeit / springen
-	-32- Interaktionsmöglichkeit / Seil abfeuern
-	-33- Interaktionsmglichekeit / Chat aufrufen
-	-34- Interaktionsmöglichkeit / Einstellungen aufrufen
-	-35- Interaktionsmöglichkeit / Inventar öffnen
-	-36- Interaktionsmöglichkeit / Item einsetzen
-	-37- Interaktionsmöglichkeit / Item einsetzen
-	-38- Interaktionsmöglichkeit / Item einsetzen
-	-39- Interaktionsmöglichkeit / Charaktermenü öffnen
-	-40- Interaktionsmöglichkeit / Karte aufrufen
-	-41- Interaktionsmöglichkeit / Questlog aufrufen
-	-42- Interaktionsmöglichkeit / angreifen
+	-28- Schaltfläche / laufen nach links
+	-29- Schaltfläche / laufen nach rechts
+	-30- Schaltfläche / ducken oder sliden
+	-31- Schaltfläche / springen
+	-32- Schaltfläche / Seil abfeuern
+	-33- Schaltfläche / Chat aufrufen
+	-34- Schaltfläche / Einstellungen aufrufen
+	-35- Schaltfläche / Inventar öffnen
+	-36- Schaltfläche / Item einsetzen
+	-37- Schaltfläche / Item einsetzen
+	-38- Schaltfläche / Item einsetzen
+	-39- Schaltfläche / Charaktermenü öffnen
+	-40- Schaltfläche / Karte aufrufen
+	-41- Schaltfläche / Questlog aufrufen
+	-42- Schaltfläche / angreifen
 
 	-43- Schaltfläche / Inventar aufrufen
 	-44- Schaltfläche / Charaktermenü aufrufen
-	-45- Schaltfläche / Questlog aufrufen
-	-46- Schaltfläche / Karte aufrufen
-	-69- Schaltfläche / Chat aufrufen
 
-	-47- Interaktionsmöglichkeit / interagieren, sprechen, "OK", Items aufheben, Items bewegen
-	-49- Interaktionsmöglichkeit / weitere Interaktionsmöglichkeiten anzeigen
+	-47- Schaltfläche / interagieren, sprechen, "OK", Items aufheben, Items bewegen
+	-49- Schaltfläche / weitere Interaktionsmöglichkeiten anzeigen
 	
 	-50- Schaltfläche / Freundesliste aufrufen
 
-	-52- Interaktionsmöglichkeit / Ausrüstung anlegen
-	-53- Interaktionsmöglchkeit / Items verschieben
+	-52- Schaltfläche / Ausrüstung anlegen
 	-54- Musik / Hintergrundmusik / levelabhängig
 	-55- Anzeige / Erfahrung
 	-56- Bild / Level-Up
@@ -70,14 +66,21 @@
 	-58- Bild / Dungeon geschafft
 	-59- Schaltfläche / "OK", bestätigen
 	-60- Absatz / Itembeschreibungen
-	-61- Interaktionsmöglichkeit / in Gruppe einladen
-	-62- Interaktionsmöglichkeit / zur Freundesliste hinzufügen
+	-61- Schaltfläche / in Gruppe einladen
+	-62- Schaltfläche / zur Freundesliste hinzufügen
 	-63- Schaltfläche / Ja, Nein
 	-64- Link / Beenden /					/Man wird aufs Ending screen verwiesen
 	-66- Link / Levelauswahl				/Man wird zur Levelauswahl verwiesen
 	-67- Schaltfläche / Spiel beenden
 
-	-68- Textfeld / Captcha
+	-68- Textfeld / Eingabemöglichkeit für das Captcha
+    -71- Button / Bestätigungsfeld für das Captcha
+    -72- Grafik / Captcha
+    -75- Bild / Level
+    -76- Schaltfläche / Spiel beenden
+    -77- Link / Logout / also Zum Loginscreen
+
+
 ___________________________________________________________________________________________________
 
 //GRUPPEN STRUKTURELLER ELEMENTE//Stand: 02.08.2016
@@ -87,33 +90,34 @@ ________________________________________________________________________________
     -----------------------------
         -01- Bild / Hintergrund
 		-02- Bild / Spiellogo
-		-11- Musik / Hintergrundmusik
-		-04- Schaltfläche / Spiel beenden/ zurück
-
+		-54- Musik / Hintergrundmusik
+        -76- Schaltfläche / Spiel beenden  oder...
+        -10- Link / zurück
+        
 
         I. starting/login screen
 	   _____________________
 		
-		-05- Eingabefläche / Login
-		-62- Label / Login
-		-06- Eingabefläche / Passwort
-		-63- Label / Passwort
-		-07- Textfeld / Captcha
-		-64- Bild / Captcha
-		-08- Schaltfläche / Login bestätigen -> II.
-		-09- Schaltfläche / Einstellungen -> IV. 
-		-10- Schaltfläche / Registrieren -> 
+		-04- Textfeld / Login
+		-69- Label / Login
+		-05- Textfeld / Passwort
+		-70- Label / Passwort
+		-68- Textfeld / Captcha
+		-72- Grafik / Captch
+        -74- Link / Login                 /Man wird zur Levelauswahl weitergeleitet
+		-15- Schaltfläche / Einstellungen -> IV. 
+		-06- Link / Registrieren -> 
 
 	_____________________
 	II. level select
 	_____________________
 
 
-		-12- Bild / Level
-		-65- Schaltfläche / Link / Einstellungen
-		-13- Schaltfläche / Link / Level bestätigen -> [V. VI. VII.]
-		-14- Interaktionsmöglichkeit / Level wechseln 
-		-16- Absatz / Informationen zum Level
+		-75- Bild / Level
+		-15- Schaltfläche / Einstellungen
+		-21- Link / Level bestätigen -> [V. VI. VII.]
+		-20- Schaltfläche / Level wechseln 
+		-23- Absatz / Informationen zum Level
 	
 	_____________________
 	IV. settings
@@ -121,50 +125,49 @@ ________________________________________________________________________________
 
 
 		-17- Schaltfläche / Sound ON, OFF
-		-18- Schaltflächen / Pfeiltasten ein- ausblenden
+		-18- Schaltfläche / Pfeiltasten ein- ausblenden
 
 	_____________________
 	V. character controls
 	_____________________
 
-		-19- Interaktionsmöglichkeit / (Pfeiltaste Links) / laufen nach links
-		-20- Interaktionsmöglichkeit / (Pfeiltaste Rechts) / laufen nach rechts
-		-21- Interaktionsmöglichkeit / (Pfeiltaste Unten) / ducken oder sliden
-		-22- Interaktionsmöglichkeit / (Pfeiltaste Oben) / springen
-		-23- Interaktionsmöglichkeit / (Leertaste) / Seil abfeuern
+		-28- Schaltfläche / (Pfeiltaste Links) / laufen nach links
+		-29- Schaltfläche / (Pfeiltaste Rechts) / laufen nach rechts
+		-30- Schaltfläche / (Pfeiltaste Unten) / ducken oder sliden
+		-31- Schaltfläche / (Pfeiltaste Oben) / springen
+		-32- Schaltfläche / (Leertaste) / Seil abfeuern
 	
 	_____________________
 	(VI. keybinds) nur in PC Version verfügbar, also ziemlich irrelevant fürs erste	
 	_____________________
 
 
-		-25- Interaktionsmöglichkeit / (ESC) / Einstellungen aufrufen -> IV.
-		-26- Interaktionsmöglichkeit / (Taste "I") / Inventar öffnen
-		-27- Interaktionsmöglichkeit / (Taste "1") / Item einsetzen
-		-28- Interaktionsmöglichkeit / (Taste "2") / Item einsetzen
-		-29- Interaktionsmöglichkeit / (Taste "3") / Item einsetzen
-		-30- Interaktionsmöglichkeit / (Taste "C") / Charaktermenü öffnen
-		-31- Interaktionsmöglichkeit / (Taste "M") / Karte aufrufen
-		-32- Interaktionsmöglichkeit / (Taste "L") / Questlog aufrufen
-		-33- Interaktionsmöglichkeit / (Taste "X") / angreifen	
-		-34- Interaktionsmöglichkeit / (Taste "Y") / interagieren, sprechen, "OK", Items aufheben
-		-35- Interaktionsmöglichkeit / (linke Maustaste) / interagieren, "OK", Items bewegen
-		-36- Interaktionsmöglichkeit / (rechte Maustaste) / weitere Interaktionsmöglichkeiten zeigen
+		-34- Schaltfläche / (ESC) / Einstellungen aufrufen -> IV.
+		-35- Schaltfläche / (Taste "I") / Inventar öffnen
+		-36- Schaltfläche / (Taste "1") / Item einsetzen
+		-37- Schaltfläche / (Taste "2") / Item einsetzen
+		-38- Schaltfläche / (Taste "3") / Item einsetzen
+		-39- Schaltfläche / (Taste "C") / Charaktermenü öffnen
+		-40- Schaltfläche / (Taste "M") / Karte aufrufen
+		-41- Schaltfläche / (Taste "L") / Questlog aufrufen
+		-42- Schaltfläche / (Taste "X") / angreifen	
+		-47- Schaltfläche / (Taste "Y") / interagieren, sprechen, "OK", Items aufheben
+		-47- Schaltfläche / (linke Maustaste) / interagieren, "OK", Items bewegen
+		-49- Schaltfläche / (rechte Maustaste) / weitere Interaktionsmöglichkeiten zeigen
 	
 	______________________
 	VII. interface
 	______________________
 
 		-01- Bild / Hintergrund
-		-11- Musik / Hintergrundmusik
-		-04- Schaltfläche / Spiel beenden
-		-09- Schaltfläche / Einstellungen -> IV.
-		-53- Schaltfläche / Ja, Nein
-		-54- Schaltfläche / Link / Levelauswahl
-		-55- Schaltfläche / Link / Logout
+		-54- Musik / Hintergrundmusik
+		-76- Schaltfläche / Spiel beenden
+		-15- Schaltfläche / Einstellungen -> IV.
+		-63- Schaltfläche / Ja, Nein
+		-77- Link / Logout / also Zum Loginscreen
 
-		-66- Schaltfläche / Chat aufrufen
-		-67- Interaktionsmöglichkeit / Texteingabe durch Chat
+		-33- Schaltfläche / Chat aufrufen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HIER AUFGEHÖRT!!!
+		-67- Textfeld und Schaltfläche / Texteingabe durch Chat
 		-37- Schaltfläche / Inventar aufrufen
 		-38- Schaltfläche / Charaktermenü aufrufen
 		-39- Schaltfläche / Questlog aufrufen
@@ -189,7 +192,7 @@ ________________________________________________________________________________
 
 		-51- Schaltfläche / in Gruppe einladen
 		-52- Schaltfläche / Freundesliste hinzufügen
-		-53- Schaltfläche / Ja, Nein
+		-63- Schaltfläche / Ja, Nein
 	
 
 	______________________
@@ -221,7 +224,7 @@ ________________________________________________________________________________
     XII.    leaderboards
     _____________________
 
-        -71- Tabelle/ leaderboards
+        -12- Tabelle/ leaderboards
         -72- Schaltfläche / zurück
 ___________________________________________________________________________________________________
 
