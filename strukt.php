@@ -50,8 +50,6 @@
 	-41- Schaltfläche / Questlog aufrufen
 	-42- Schaltfläche / angreifen
 
-	-43- Schaltfläche / Inventar aufrufen
-	-44- Schaltfläche / Charaktermenü aufrufen
 
 	-47- Schaltfläche / interagieren, sprechen, "OK", Items aufheben, Items bewegen
 	-49- Schaltfläche / weitere Interaktionsmöglichkeiten anzeigen
@@ -166,13 +164,12 @@ ________________________________________________________________________________
 		-63- Schaltfläche / Ja, Nein
 		-77- Link / Logout / also Zum Loginscreen
 
-		-33- Schaltfläche / Chat aufrufen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HIER AUFGEHÖRT!!!
-		-67- Textfeld und Schaltfläche / Texteingabe durch Chat
-		-37- Schaltfläche / Inventar aufrufen
-		-38- Schaltfläche / Charaktermenü aufrufen
-		-39- Schaltfläche / Questlog aufrufen
-		-40- Schaltfläche / Karte aufrufen
-		-41- Schaltfläche / Freundesliste aufrufen
+		-33- Schaltfläche / Chat aufrufen 
+		-35- Schaltfläche / Inventar aufrufen
+		-39- Schaltfläche / Charaktermenü aufrufen
+		-41- Schaltfläche / Questlog aufrufen
+		-40- Schaltfläche / Karte aufrufen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HIE
+		-50- Schaltfläche / Freundesliste aufrufen
 
 		-42- Schaltfläche / Item 1 einsetzen
 		-43- Schaltfläche / Item 2 einsetzen
