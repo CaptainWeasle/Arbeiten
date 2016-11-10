@@ -16,7 +16,7 @@
 	-74- Link / Login                 /Man wird zur Levelauswahl weitergeleitet
     -10- Link / Zurück
 	-11- Link / Leaderboards
-	-12- Tabelle / Leaderborads
+	-12- Tabelle / Leaderboards
 	-13- Link / Credits
 	-14- Absatz / Credits
 	-15- Schaltfläche / Einstellungen	/Es wird ein neues Fenster geöffnet, Pop-up
@@ -69,7 +69,6 @@
 	-63- Schaltfläche / Ja, Nein
 	-64- Link / Beenden /					/Man wird aufs Ending screen verwiesen
 	-66- Link / Levelauswahl				/Man wird zur Levelauswahl verwiesen
-	-67- Schaltfläche / Spiel beenden
 
 	-68- Textfeld / Eingabemöglichkeit für das Captcha
     -71- Button / Bestätigungsfeld für das Captcha
@@ -77,6 +76,10 @@
     -75- Bild / Level
     -76- Schaltfläche / Spiel beenden
     -77- Link / Logout / also Zum Loginscreen
+    -78- Absatz / Score
+    -79- Textfeld / Email
+    -80- Label / Email
+    -82- Absatz / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
 
 
 ___________________________________________________________________________________________________
@@ -101,6 +104,7 @@ ________________________________________________________________________________
 		-05- Textfeld / Passwort
 		-70- Label / Passwort
 		-68- Textfeld / Captcha
+        -71- Button / Bestätigungsfeld für das Captcha
 		-72- Grafik / Captch
         -74- Link / Login                 /Man wird zur Levelauswahl weitergeleitet
 		-15- Schaltfläche / Einstellungen -> IV. 
@@ -168,27 +172,27 @@ ________________________________________________________________________________
 		-35- Schaltfläche / Inventar aufrufen
 		-39- Schaltfläche / Charaktermenü aufrufen
 		-41- Schaltfläche / Questlog aufrufen
-		-40- Schaltfläche / Karte aufrufen !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HIE
+		-40- Schaltfläche / Karte aufrufen
 		-50- Schaltfläche / Freundesliste aufrufen
 
-		-42- Schaltfläche / Item 1 einsetzen
-		-43- Schaltfläche / Item 2 einsetzen
-		-44- Schaltfläche / Item 3 einsetzen
+		-36- Schaltfläche / Item 1 einsetzen
+		-37- Schaltfläche / Item 2 einsetzen
+		-38- Schaltfläche / Item 3 einsetzen
 						...
 
-		-45- Anzeige / Erfahrung
-		-46- Bild / Level-Up
-		-47- Bild / Level geschafft
-		-48- Bild / Dungeon geschafft
-		-49- Schaltfläche / "OK"
-		-50- Absatz / Itembeschreibungen
+		-55- Anzeige / Erfahrung
+		-56- Bild / Level-Up
+		-57- Bild / Level geschafft
+		-58- Bild / Dungeon geschafft
+		-59- Schaltfläche / "OK"
+		-60- Absatz / Itembeschreibungen
 
 	______________________
 	IX. interaction
 	______________________
 
-		-51- Schaltfläche / in Gruppe einladen
-		-52- Schaltfläche / Freundesliste hinzufügen
+		-61- Schaltfläche / in Gruppe einladen
+		-62- Schaltfläche / Freundesliste hinzufügen
 		-63- Schaltfläche / Ja, Nein
 	
 
@@ -197,32 +201,33 @@ ________________________________________________________________________________
 	______________________
 
 
-		-56- Absatz / Score
-		-57- Schaltfläche / Button / Leaderboards
-		-67- Schaltläche / Link / Levelselect -> II.
+		-78- Absatz / Score
+		-11- Link / Leaderboards
+		-66- Link / Levelauswahl -> II.
 
     ______________________
-	XI. registration
+	XI. registration                   ........................
 	______________________
 
 
-		-05- Textfeld / Login
-		-68- Label / Login
-		-06- Textfeld / Passwort
-		-69- Label / Passwort
-		-07- Textfeld / Captcha
-		-70- Label / Captcha
-		-59- Textfeld / Email
-		-71- Label / Email
-		-60- Schaltfläche / Button / bestätigen
-		-61- Absatz / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
+		-04- Textfeld / Login
+		-69- Label / Login
+		-05- Textfeld / Passwort
+		-70- Label / Passwort
+        -68- Textfeld / Captcha
+        -71- Button / Bestätigungsfeld für das Captcha
+		-72- Grafik / Captcha
+        -79- Textfeld / Email
+        -80- Label / Email
+        -59- Schaltfläche / "OK", bestätigen
+		-82- Absatz / Captcha falsch,richtig / Name verfügbar, nicht verfügbar
     
     ______________________
     XII.    leaderboards
     _____________________
 
-        -12- Tabelle/ leaderboards
-        -72- Schaltfläche / zurück
+        -12- Tabelle/ Leaderboards
+        -10- Link / Zurück
 ___________________________________________________________________________________________________
 
 //ANSICHTEN//Stand: 04.08.2016
