@@ -6,7 +6,7 @@
 Das Grundprinzip der Anwendung ist ein Spiel. 
 Die Anwendung besteht aus einem Startmenü in dem man sich anmelden, registrieren, und auf die Einstellungen zugreifen kann.
 Bei der Registrierung wird man auf ein externes Fenster verwiesen. 
-Bei den Einstellungen "poppt" ein kleines Fenster auf.
+Bei den Einstellungen wird man auf ein externes Fenster verwiesen.
 Wenn man sich anmeldet, wird man per Link zur Levelauswahl weitergeleitet.
 
 //Levelselect
@@ -30,15 +30,12 @@ In der Spielanwendung wird man auf über Interaktion auf ein bestimmtes Symbol Z
 	-Karte
 	-Einstellungen
 
-Jedes dieser Features verweist den Spieler auf ein neues Fenster, sondern öffnet ein Pop-up Fenster
-im Spiel!
+Jedes dieser Features verweist den Spieler auf ein neues Fenster, sondern öffnet ein nicht externes Fenster im Spiel!
 
 //Endscreen
 Wird das Spiel über die Einstellungen beendet, so hat man weitere Navigationsmöglichkeiten.
 Man wird das Spiel von einem neuen Level aus neu starten können, man wird sich Leaderboards anschauen können, die Einstellungen ändern und das Spiel endgültig beenden können.
-Bei Neustart wird man auf das Levelselect Fenster verwiesen, bei Leaderboards wird ein (nicht externes!) Fenster geöffnet, welches eine Tabelle mit den Leaderboards zeigt, und die Einstellungen öffnen ein Pop-up Fenster.
-
-Jedes Popup Fenster wird die Möglichkeit bieten, es per Interaktion schließen zu können.
+Bei Neustart wird man auf das Levelselect Fenster verwiesen, bei Leaderboards wird ein (nicht externes!) Fenster geöffnet, welches eine Tabelle mit den Leaderboards zeigt, und die Einstellungen verweisen den Nutzer auf ein externes Fenster für die Einstellungen.
 
 
 —————————————————————————————————————————————————————————————————————————————————————————

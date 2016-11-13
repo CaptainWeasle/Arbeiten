@@ -19,7 +19,7 @@
 	-12- Tabelle / Leaderboards
 	-13- Link / Credits
 	-14- Absatz / Credits
-	-15- Schaltfläche / Einstellungen	/Es wird ein neues Fenster geöffnet, Pop-up
+	-15- Link / Einstellungen	/Es wird ein neues Fenster geöffnet
 	-16- Absatz / Sound
 	-17- Schaltfläche / Sound ON, OFF
 	
@@ -27,7 +27,7 @@
 	-19- Schaltfläche / Levelauswahl
 	-20- Schaltfläche / Level wechseln / links, rechts
 	-21- Link / Level bestätigen 		/Man wird ins Spiel geleitet
-	-22- Schaltfläche / Levelinformationen /Es wird ein neues Fenster geöffnet, Pop-up
+	-22- Link / Levelinformationen /Es wird ein neues Fenster geöffnet
 	-23- Absatz / Informationen zum Level
 	
 
@@ -107,7 +107,7 @@ ________________________________________________________________________________
         -71- Button / Bestätigungsfeld für das Captcha
 		-72- Grafik / Captch
         -74- Link / Login                 /Man wird zur Levelauswahl weitergeleitet
-		-15- Schaltfläche / Einstellungen -> IV. 
+		-15- Link / Einstellungen -> IV. 
 		-06- Link / Registrieren -> 
 
 	_____________________
@@ -116,7 +116,7 @@ ________________________________________________________________________________
 
 
 		-75- Bild / Level
-		-15- Schaltfläche / Einstellungen
+		-15- Link / Einstellungen
 		-21- Link / Level bestätigen -> [V. VI. VII.]
 		-20- Schaltfläche / Level wechseln 
 		-23- Absatz / Informationen zum Level
@@ -164,7 +164,7 @@ ________________________________________________________________________________
 		-01- Bild / Hintergrund
 		-54- Musik / Hintergrundmusik
 		-76- Schaltfläche / Spiel beenden
-		-15- Schaltfläche / Einstellungen -> IV.
+		-15- Link / Einstellungen -> IV.
 		-63- Schaltfläche / Ja, Nein
 		-77- Link / Logout / also Zum Loginscreen
 
@@ -206,7 +206,7 @@ ________________________________________________________________________________
 		-66- Link / Levelauswahl -> II.
 
     ______________________
-	XI. registration                   ........................
+	XI. registration                   
 	______________________
 
 
